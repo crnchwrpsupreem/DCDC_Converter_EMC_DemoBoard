@@ -883,6 +883,12 @@
 		(uuid "1532bd3d-d629-4d0c-8848-5232fcaddcaa")
 	)
 	(junction
+		(at 196.85 123.19)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "16d5b919-ba43-4126-bef2-5b4c7beea5bc")
+	)
+	(junction
 		(at 166.37 63.5)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -899,6 +905,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "37649eda-f574-48fe-b146-6ba7a99bc218")
+	)
+	(junction
+		(at 196.85 55.88)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "3b52a5c3-f67e-4e94-a7d3-0ed5d1733ad3")
 	)
 	(junction
 		(at 194.31 123.19)
@@ -1308,6 +1320,16 @@
 	)
 	(wire
 		(pts
+			(xy 196.85 123.19) (xy 204.47 123.19)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "44cf0812-3432-4aa7-94eb-b07a94bca33a")
+	)
+	(wire
+		(pts
 			(xy 96.52 55.88) (xy 97.79 55.88)
 		)
 		(stroke
@@ -1348,7 +1370,7 @@
 	)
 	(wire
 		(pts
-			(xy 194.31 55.88) (xy 204.47 55.88)
+			(xy 194.31 55.88) (xy 196.85 55.88)
 		)
 		(stroke
 			(width 0)
@@ -1488,7 +1510,7 @@
 	)
 	(wire
 		(pts
-			(xy 194.31 123.19) (xy 204.47 123.19)
+			(xy 194.31 123.19) (xy 196.85 123.19)
 		)
 		(stroke
 			(width 0)
@@ -1778,6 +1800,16 @@
 	)
 	(wire
 		(pts
+			(xy 196.85 55.88) (xy 204.47 55.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dd18a62f-b45d-470a-8c83-db5463f99599")
+	)
+	(wire
+		(pts
 			(xy 143.51 33.02) (xy 194.31 33.02)
 		)
 		(stroke
@@ -1906,7 +1938,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "04bd1d73-6244-4d13-a976-29c72be0a6ee")
-		(property "Reference" "J23"
+		(property "Reference" "J15"
 			(at 212.09 121.9199 0)
 			(effects
 				(font
@@ -1925,7 +1957,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical"
 			(at 209.55 123.19 0)
 			(effects
 				(font
@@ -1958,7 +1990,7 @@
 		(instances
 			(project "DCDC_Converter_DemoBoard"
 				(path "/1ffc2b1f-2eb0-4f52-971f-10c5a27c8dc9"
-					(reference "J23")
+					(reference "J15")
 					(unit 1)
 				)
 			)
@@ -1966,15 +1998,17 @@
 	)
 	(symbol
 		(lib_id "Connector_Generic:Conn_01x01")
-		(at 171.45 130.81 0)
+		(at 196.85 118.11 270)
+		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "06e8d3cb-39bf-4d98-8801-d0a21032a46f")
-		(property "Reference" "J19"
-			(at 170.434 128.524 0)
+		(fields_autoplaced yes)
+		(uuid "07740519-d72f-4d6e-9b34-73c06c01982e")
+		(property "Reference" "J12"
+			(at 199.39 118.1099 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1983,7 +2017,7 @@
 			)
 		)
 		(property "Value" "Conn_01x01"
-			(at 173.99 132.0799 0)
+			(at 195.5801 115.57 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1992,8 +2026,8 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" ""
-			(at 171.45 130.81 0)
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical"
+			(at 196.85 118.11 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2002,7 +2036,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 171.45 130.81 0)
+			(at 196.85 118.11 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2011,7 +2045,7 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 171.45 130.81 0)
+			(at 196.85 118.11 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2020,12 +2054,12 @@
 			)
 		)
 		(pin "1"
-			(uuid "487c04aa-5143-4d59-ba6d-d8c84648a7c7")
+			(uuid "1e229a4e-b807-4f60-92bd-aaa6d8b1a052")
 		)
 		(instances
 			(project "DCDC_Converter_DemoBoard"
 				(path "/1ffc2b1f-2eb0-4f52-971f-10c5a27c8dc9"
-					(reference "J19")
+					(reference "J12")
 					(unit 1)
 				)
 			)
@@ -2040,7 +2074,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "09335bb8-aa62-4fae-b4dc-ea498c17bac6")
-		(property "Reference" "#PWR021"
+		(property "Reference" "#PWR014"
 			(at 138.43 152.4 0)
 			(effects
 				(font
@@ -2090,7 +2124,7 @@
 		(instances
 			(project "DCDC_Converter_DemoBoard"
 				(path "/1ffc2b1f-2eb0-4f52-971f-10c5a27c8dc9"
-					(reference "#PWR021")
+					(reference "#PWR014")
 					(unit 1)
 				)
 			)
@@ -2105,7 +2139,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "095b2f90-63c1-408a-9a19-5d274982cd62")
-		(property "Reference" "JP16"
+		(property "Reference" "JP6"
 			(at 105.156 135.128 0)
 			(effects
 				(font
@@ -2122,7 +2156,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical"
 			(at 105.41 138.43 0)
 			(effects
 				(font
@@ -2158,7 +2192,7 @@
 		(instances
 			(project "DCDC_Converter_DemoBoard"
 				(path "/1ffc2b1f-2eb0-4f52-971f-10c5a27c8dc9"
-					(reference "JP16")
+					(reference "JP6")
 					(unit 1)
 				)
 			)
@@ -2173,7 +2207,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "0c4de52b-2885-4ed1-92e5-7b266f584a2b")
-		(property "Reference" "JP20"
+		(property "Reference" "JP16"
 			(at 153.67 108.204 0)
 			(effects
 				(font
@@ -2189,7 +2223,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical"
 			(at 157.48 114.3 0)
 			(effects
 				(font
@@ -2225,7 +2259,7 @@
 		(instances
 			(project "DCDC_Converter_DemoBoard"
 				(path "/1ffc2b1f-2eb0-4f52-971f-10c5a27c8dc9"
-					(reference "JP20")
+					(reference "JP16")
 					(unit 1)
 				)
 			)
@@ -2241,7 +2275,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "0f0de169-8652-40db-877a-c7dda18837ba")
-		(property "Reference" "L15"
+		(property "Reference" "L14"
 			(at 185.42 118.11 90)
 			(effects
 				(font
@@ -2257,7 +2291,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Inductor_SMD:L_10.4x10.4_H4.8"
 			(at 185.42 123.19 0)
 			(effects
 				(font
@@ -2293,7 +2327,7 @@
 		(instances
 			(project "DCDC_Converter_DemoBoard"
 				(path "/1ffc2b1f-2eb0-4f52-971f-10c5a27c8dc9"
-					(reference "L15")
+					(reference "L14")
 					(unit 1)
 				)
 			)
@@ -2308,7 +2342,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "10065db8-fb6d-4a1a-95c7-630a4a47a5ce")
-		(property "Reference" "JP21"
+		(property "Reference" "JP14"
 			(at 134.62 94.234 0)
 			(effects
 				(font
@@ -2324,7 +2358,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical"
 			(at 138.43 100.33 0)
 			(effects
 				(font
@@ -2360,7 +2394,7 @@
 		(instances
 			(project "DCDC_Converter_DemoBoard"
 				(path "/1ffc2b1f-2eb0-4f52-971f-10c5a27c8dc9"
-					(reference "JP21")
+					(reference "JP14")
 					(unit 1)
 				)
 			)
@@ -2375,7 +2409,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "11740387-776e-4f9c-8784-bc22a0b3504a")
-		(property "Reference" "JP19"
+		(property "Reference" "JP12"
 			(at 133.096 135.128 0)
 			(effects
 				(font
@@ -2392,7 +2426,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical"
 			(at 133.35 138.43 0)
 			(effects
 				(font
@@ -2428,7 +2462,7 @@
 		(instances
 			(project "DCDC_Converter_DemoBoard"
 				(path "/1ffc2b1f-2eb0-4f52-971f-10c5a27c8dc9"
-					(reference "JP19")
+					(reference "JP12")
 					(unit 1)
 				)
 			)
@@ -2443,7 +2477,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "16938bd0-ca5a-4dc1-8a28-e41023e86006")
-		(property "Reference" "JP11"
+		(property "Reference" "JP1"
 			(at 97.79 40.894 0)
 			(effects
 				(font
@@ -2459,7 +2493,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical"
 			(at 101.6 46.99 0)
 			(effects
 				(font
@@ -2495,7 +2529,7 @@
 		(instances
 			(project "DCDC_Converter_DemoBoard"
 				(path "/1ffc2b1f-2eb0-4f52-971f-10c5a27c8dc9"
-					(reference "JP11")
+					(reference "JP1")
 					(unit 1)
 				)
 			)
@@ -2511,7 +2545,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "17a2c242-93d3-4409-b081-a0a90d8a1e4f")
-		(property "Reference" "R13"
+		(property "Reference" "R10"
 			(at 144.78 119.38 90)
 			(effects
 				(font
@@ -2529,7 +2563,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
 			(at 145.034 122.174 90)
 			(effects
 				(font
@@ -2565,7 +2599,7 @@
 		(instances
 			(project "DCDC_Converter_DemoBoard"
 				(path "/1ffc2b1f-2eb0-4f52-971f-10c5a27c8dc9"
-					(reference "R13")
+					(reference "R10")
 					(unit 1)
 				)
 			)
@@ -2581,7 +2615,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "17dc5650-6b16-43dc-8074-05ac270f9820")
-		(property "Reference" "L9"
+		(property "Reference" "L2"
 			(at 101.6 118.11 90)
 			(effects
 				(font
@@ -2597,7 +2631,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Inductor_SMD:L_10.4x10.4_H4.8"
 			(at 101.6 123.19 0)
 			(effects
 				(font
@@ -2633,7 +2667,7 @@
 		(instances
 			(project "DCDC_Converter_DemoBoard"
 				(path "/1ffc2b1f-2eb0-4f52-971f-10c5a27c8dc9"
-					(reference "L9")
+					(reference "L2")
 					(unit 1)
 				)
 			)
@@ -2668,7 +2702,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Inductor_SMD:L_1008_2520Metric_Pad1.43x2.20mm_HandSolder"
 			(at 194.31 142.24 0)
 			(effects
 				(font
@@ -2739,7 +2773,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
 			(at 195.2752 138.43 0)
 			(effects
 				(font
@@ -2791,7 +2825,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "1c4ad05f-36a4-44c7-a57f-009f52b5b5b7")
-		(property "Reference" "R1"
+		(property "Reference" "R15"
 			(at 196.85 58.4199 0)
 			(effects
 				(font
@@ -2810,7 +2844,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
 			(at 195.326 59.944 90)
 			(effects
 				(font
@@ -2846,74 +2880,7 @@
 		(instances
 			(project ""
 				(path "/1ffc2b1f-2eb0-4f52-971f-10c5a27c8dc9"
-					(reference "R1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector_Generic:Conn_01x01")
-		(at 143.51 63.5 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "1d2a623a-f654-4c7e-ac7e-293a4153c9d2")
-		(property "Reference" "J9"
-			(at 142.494 61.214 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "Conn_01x01"
-			(at 146.05 64.7699 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Footprint" ""
-			(at 143.51 63.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 143.51 63.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Generic connector, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 143.51 63.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "239c35fd-172d-4922-8dd9-06970b4bfb59")
-		)
-		(instances
-			(project "DCDC_Converter_DemoBoard"
-				(path "/1ffc2b1f-2eb0-4f52-971f-10c5a27c8dc9"
-					(reference "J9")
+					(reference "R15")
 					(unit 1)
 				)
 			)
@@ -2930,7 +2897,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "1e137a55-e541-4427-b47e-f65c1ed81a18")
-		(property "Reference" "J14"
+		(property "Reference" "J2"
 			(at 78.74 62.2299 0)
 			(effects
 				(font
@@ -2949,7 +2916,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical"
 			(at 81.28 63.5 0)
 			(effects
 				(font
@@ -2982,7 +2949,7 @@
 		(instances
 			(project "DCDC_Converter_DemoBoard"
 				(path "/1ffc2b1f-2eb0-4f52-971f-10c5a27c8dc9"
-					(reference "J14")
+					(reference "J2")
 					(unit 1)
 				)
 			)
@@ -2997,7 +2964,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "21021c3c-6934-4bf9-b6ed-24301575daa6")
-		(property "Reference" "#PWR020"
+		(property "Reference" "#PWR012"
 			(at 128.27 144.78 0)
 			(effects
 				(font
@@ -3047,7 +3014,7 @@
 		(instances
 			(project "DCDC_Converter_DemoBoard"
 				(path "/1ffc2b1f-2eb0-4f52-971f-10c5a27c8dc9"
-					(reference "#PWR020")
+					(reference "#PWR012")
 					(unit 1)
 				)
 			)
@@ -3062,7 +3029,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "220e0c54-4840-44cb-a20f-3e63ddba89df")
-		(property "Reference" "JP1"
+		(property "Reference" "JP23"
 			(at 189.23 59.69 0)
 			(effects
 				(font
@@ -3079,7 +3046,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical"
 			(at 189.23 63.5 0)
 			(effects
 				(font
@@ -3115,7 +3082,76 @@
 		(instances
 			(project ""
 				(path "/1ffc2b1f-2eb0-4f52-971f-10c5a27c8dc9"
-					(reference "JP1")
+					(reference "JP23")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector_Generic:Conn_01x01")
+		(at 166.37 118.11 270)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "2382066f-9325-4cf0-a403-e5532189048b")
+		(property "Reference" "J10"
+			(at 168.91 118.1099 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Conn_01x01"
+			(at 165.1001 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical"
+			(at 166.37 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 166.37 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 166.37 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "f3ca4fc0-ffde-4b49-a93f-4a8f83c07b7b")
+		)
+		(instances
+			(project "DCDC_Converter_DemoBoard"
+				(path "/1ffc2b1f-2eb0-4f52-971f-10c5a27c8dc9"
+					(reference "J10")
 					(unit 1)
 				)
 			)
@@ -3147,7 +3183,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical"
 			(at 189.23 130.81 0)
 			(effects
 				(font
@@ -3198,7 +3234,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "24d8d4e4-cd52-4510-8a7f-4dc81510b229")
-		(property "Reference" "#PWR017"
+		(property "Reference" "#PWR06"
 			(at 100.33 144.78 0)
 			(effects
 				(font
@@ -3248,7 +3284,7 @@
 		(instances
 			(project "DCDC_Converter_DemoBoard"
 				(path "/1ffc2b1f-2eb0-4f52-971f-10c5a27c8dc9"
-					(reference "#PWR017")
+					(reference "#PWR06")
 					(unit 1)
 				)
 			)
@@ -3264,7 +3300,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "28b80822-10b1-48c6-94c1-c0a7047eaf35")
-		(property "Reference" "R14"
+		(property "Reference" "R12"
 			(at 168.91 125.7299 0)
 			(effects
 				(font
@@ -3283,7 +3319,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
 			(at 167.386 127.254 90)
 			(effects
 				(font
@@ -3319,7 +3355,7 @@
 		(instances
 			(project "DCDC_Converter_DemoBoard"
 				(path "/1ffc2b1f-2eb0-4f52-971f-10c5a27c8dc9"
-					(reference "R14")
+					(reference "R12")
 					(unit 1)
 				)
 			)
@@ -3334,7 +3370,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "2ce5f04d-4f14-4645-a7f3-bc21bd25de5c")
-		(property "Reference" "JP13"
+		(property "Reference" "JP4"
 			(at 105.156 67.818 0)
 			(effects
 				(font
@@ -3351,7 +3387,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical"
 			(at 105.41 71.12 0)
 			(effects
 				(font
@@ -3387,7 +3423,76 @@
 		(instances
 			(project "DCDC_Converter_DemoBoard"
 				(path "/1ffc2b1f-2eb0-4f52-971f-10c5a27c8dc9"
-					(reference "JP13")
+					(reference "JP4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector_Generic:Conn_01x01")
+		(at 138.43 118.11 270)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "2d3a9cef-2daf-4158-83df-362b6df3ca66")
+		(property "Reference" "J8"
+			(at 140.97 118.1099 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Conn_01x01"
+			(at 137.1601 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical"
+			(at 138.43 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 138.43 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 138.43 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "decc9736-4c9b-4f8c-b10d-c58a0705feaf")
+		)
+		(instances
+			(project "DCDC_Converter_DemoBoard"
+				(path "/1ffc2b1f-2eb0-4f52-971f-10c5a27c8dc9"
+					(reference "J8")
 					(unit 1)
 				)
 			)
@@ -3419,7 +3524,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Inductor_SMD:L_10.4x10.4_H4.8"
 			(at 129.54 55.88 0)
 			(effects
 				(font
@@ -3462,73 +3567,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector_Generic:Conn_01x01")
-		(at 199.39 138.43 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "320b92e4-565c-48ee-8193-4c291122a5f7")
-		(property "Reference" "J22"
-			(at 198.374 136.144 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "Conn_01x01"
-			(at 201.93 139.6999 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Footprint" ""
-			(at 199.39 138.43 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 199.39 138.43 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Generic connector, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 199.39 138.43 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "f62e423b-fdc9-4133-bd45-b76ddc037b7e")
-		)
-		(instances
-			(project "DCDC_Converter_DemoBoard"
-				(path "/1ffc2b1f-2eb0-4f52-971f-10c5a27c8dc9"
-					(reference "J22")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:R_US")
 		(at 138.43 127 0)
 		(unit 1)
@@ -3538,7 +3576,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "34a3abf1-5f1c-4e08-be7f-56cd6443e93a")
-		(property "Reference" "R12"
+		(property "Reference" "R8"
 			(at 140.97 125.7299 0)
 			(effects
 				(font
@@ -3557,7 +3595,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
 			(at 139.446 127.254 90)
 			(effects
 				(font
@@ -3593,7 +3631,7 @@
 		(instances
 			(project "DCDC_Converter_DemoBoard"
 				(path "/1ffc2b1f-2eb0-4f52-971f-10c5a27c8dc9"
-					(reference "R12")
+					(reference "R8")
 					(unit 1)
 				)
 			)
@@ -3610,7 +3648,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "3547436e-abb9-4089-9ceb-c3115e2eb282")
-		(property "Reference" "J13"
+		(property "Reference" "J1"
 			(at 78.74 54.6099 0)
 			(effects
 				(font
@@ -3629,7 +3667,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical"
 			(at 81.28 55.88 0)
 			(effects
 				(font
@@ -3662,7 +3700,7 @@
 		(instances
 			(project "DCDC_Converter_DemoBoard"
 				(path "/1ffc2b1f-2eb0-4f52-971f-10c5a27c8dc9"
-					(reference "J13")
+					(reference "J1")
 					(unit 1)
 				)
 			)
@@ -3677,7 +3715,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "37812203-60cc-43b3-b385-29c2804b58fb")
-		(property "Reference" "JP15"
+		(property "Reference" "JP5"
 			(at 105.41 127 0)
 			(effects
 				(font
@@ -3694,7 +3732,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical"
 			(at 105.41 130.81 0)
 			(effects
 				(font
@@ -3730,7 +3768,7 @@
 		(instances
 			(project "DCDC_Converter_DemoBoard"
 				(path "/1ffc2b1f-2eb0-4f52-971f-10c5a27c8dc9"
-					(reference "JP15")
+					(reference "JP5")
 					(unit 1)
 				)
 			)
@@ -3745,7 +3783,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "39870832-deb6-4493-af43-08bab09f55ad")
-		(property "Reference" "JP3"
+		(property "Reference" "JP21"
 			(at 181.61 40.894 0)
 			(effects
 				(font
@@ -3761,7 +3799,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical"
 			(at 185.42 46.99 0)
 			(effects
 				(font
@@ -3797,7 +3835,7 @@
 		(instances
 			(project "DCDC_Converter_DemoBoard"
 				(path "/1ffc2b1f-2eb0-4f52-971f-10c5a27c8dc9"
-					(reference "JP3")
+					(reference "JP21")
 					(unit 1)
 				)
 			)
@@ -3812,7 +3850,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "3ad1dc6b-5834-4309-91ed-5ea755d9ab45")
-		(property "Reference" "#PWR04"
+		(property "Reference" "#PWR027"
 			(at 204.47 69.85 0)
 			(effects
 				(font
@@ -3862,208 +3900,7 @@
 		(instances
 			(project "DCDC_Converter_DemoBoard"
 				(path "/1ffc2b1f-2eb0-4f52-971f-10c5a27c8dc9"
-					(reference "#PWR04")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector_Generic:Conn_01x01")
-		(at 115.57 130.81 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "3e2aea91-8291-4d99-93c2-7a6ee648ce45")
-		(property "Reference" "J15"
-			(at 114.554 128.524 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "Conn_01x01"
-			(at 118.11 132.0799 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Footprint" ""
-			(at 115.57 130.81 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 115.57 130.81 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Generic connector, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 115.57 130.81 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "6df24a77-2ad1-4288-bdfb-643d0255d7b7")
-		)
-		(instances
-			(project "DCDC_Converter_DemoBoard"
-				(path "/1ffc2b1f-2eb0-4f52-971f-10c5a27c8dc9"
-					(reference "J15")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector_Generic:Conn_01x01")
-		(at 143.51 138.43 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "404090d3-353b-42af-a4b4-c39ca43358fd")
-		(property "Reference" "J18"
-			(at 142.494 136.144 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "Conn_01x01"
-			(at 146.05 139.6999 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Footprint" ""
-			(at 143.51 138.43 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 143.51 138.43 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Generic connector, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 143.51 138.43 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "0f794aee-bac0-48d1-b1ce-f5c27bcbf523")
-		)
-		(instances
-			(project "DCDC_Converter_DemoBoard"
-				(path "/1ffc2b1f-2eb0-4f52-971f-10c5a27c8dc9"
-					(reference "J18")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector_Generic:Conn_01x01")
-		(at 199.39 130.81 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "43cfc29a-7b90-45bb-a28c-c32ad2007850")
-		(property "Reference" "J21"
-			(at 198.374 128.524 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "Conn_01x01"
-			(at 201.93 132.0799 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Footprint" ""
-			(at 199.39 130.81 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 199.39 130.81 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Generic connector, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 199.39 130.81 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "31454ac4-4986-48fc-a15a-361fab9c8237")
-		)
-		(instances
-			(project "DCDC_Converter_DemoBoard"
-				(path "/1ffc2b1f-2eb0-4f52-971f-10c5a27c8dc9"
-					(reference "J21")
+					(reference "#PWR027")
 					(unit 1)
 				)
 			)
@@ -4079,7 +3916,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "442a8d52-d957-41f4-b0ca-1eeb57147690")
-		(property "Reference" "R9"
+		(property "Reference" "R2"
 			(at 90.17 119.38 90)
 			(effects
 				(font
@@ -4097,7 +3934,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
 			(at 90.424 122.174 90)
 			(effects
 				(font
@@ -4133,7 +3970,7 @@
 		(instances
 			(project "DCDC_Converter_DemoBoard"
 				(path "/1ffc2b1f-2eb0-4f52-971f-10c5a27c8dc9"
-					(reference "R9")
+					(reference "R2")
 					(unit 1)
 				)
 			)
@@ -4149,7 +3986,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "44a11880-02df-4bf2-89f7-679892c9309b")
-		(property "Reference" "J2"
+		(property "Reference" "J14"
 			(at 212.09 62.2299 0)
 			(effects
 				(font
@@ -4168,7 +4005,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical"
 			(at 209.55 63.5 0)
 			(effects
 				(font
@@ -4201,7 +4038,7 @@
 		(instances
 			(project ""
 				(path "/1ffc2b1f-2eb0-4f52-971f-10c5a27c8dc9"
-					(reference "J2")
+					(reference "J14")
 					(unit 1)
 				)
 			)
@@ -4217,7 +4054,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "455a8efd-d926-43b0-8a83-23b823cf6781")
-		(property "Reference" "L10"
+		(property "Reference" "L4"
 			(at 111.76 140.9699 0)
 			(effects
 				(font
@@ -4236,7 +4073,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Inductor_SMD:L_1812_4532Metric_Pad1.30x3.40mm_HandSolder"
 			(at 110.49 142.24 0)
 			(effects
 				(font
@@ -4272,74 +4109,7 @@
 		(instances
 			(project "DCDC_Converter_DemoBoard"
 				(path "/1ffc2b1f-2eb0-4f52-971f-10c5a27c8dc9"
-					(reference "L10")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector_Generic:Conn_01x01")
-		(at 199.39 71.12 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "45e277ec-cd86-4490-82cf-b4d84bb1e4c1")
-		(property "Reference" "J6"
-			(at 198.374 68.834 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "Conn_01x01"
-			(at 201.93 72.3899 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Footprint" ""
-			(at 199.39 71.12 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 199.39 71.12 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Generic connector, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 199.39 71.12 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "e01eeb1c-ebc6-4725-ba23-39f1979460d0")
-		)
-		(instances
-			(project ""
-				(path "/1ffc2b1f-2eb0-4f52-971f-10c5a27c8dc9"
-					(reference "J6")
+					(reference "L4")
 					(unit 1)
 				)
 			)
@@ -4354,7 +4124,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "46e5dd0d-cb42-4846-bc27-9234ccd812de")
-		(property "Reference" "#PWR013"
+		(property "Reference" "#PWR07"
 			(at 110.49 85.09 0)
 			(effects
 				(font
@@ -4404,7 +4174,7 @@
 		(instances
 			(project "DCDC_Converter_DemoBoard"
 				(path "/1ffc2b1f-2eb0-4f52-971f-10c5a27c8dc9"
-					(reference "#PWR013")
+					(reference "#PWR07")
 					(unit 1)
 				)
 			)
@@ -4420,7 +4190,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "4767ab54-3ee3-43be-ac07-6a7ef5129774")
-		(property "Reference" "C2"
+		(property "Reference" "C5"
 			(at 170.18 66.0399 0)
 			(effects
 				(font
@@ -4439,7 +4209,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
 			(at 167.3352 71.12 0)
 			(effects
 				(font
@@ -4475,7 +4245,7 @@
 		(instances
 			(project "DCDC_Converter_DemoBoard"
 				(path "/1ffc2b1f-2eb0-4f52-971f-10c5a27c8dc9"
-					(reference "C2")
+					(reference "C5")
 					(unit 1)
 				)
 			)
@@ -4491,7 +4261,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "489c2202-d734-42dd-8010-194b2a348dc9")
-		(property "Reference" "J24"
+		(property "Reference" "J16"
 			(at 212.09 129.5399 0)
 			(effects
 				(font
@@ -4510,7 +4280,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical"
 			(at 209.55 130.81 0)
 			(effects
 				(font
@@ -4543,7 +4313,7 @@
 		(instances
 			(project "DCDC_Converter_DemoBoard"
 				(path "/1ffc2b1f-2eb0-4f52-971f-10c5a27c8dc9"
-					(reference "J24")
+					(reference "J16")
 					(unit 1)
 				)
 			)
@@ -4551,15 +4321,17 @@
 	)
 	(symbol
 		(lib_id "Connector_Generic:Conn_01x01")
-		(at 143.51 130.81 0)
+		(at 166.37 50.8 270)
+		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "48b127f4-a375-4dec-b5d6-c111eb7370cb")
-		(property "Reference" "J17"
-			(at 142.494 128.524 0)
+		(fields_autoplaced yes)
+		(uuid "4f9b94b4-67f6-463e-84c4-473d1e49be0d")
+		(property "Reference" "J9"
+			(at 168.91 50.7999 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4568,7 +4340,7 @@
 			)
 		)
 		(property "Value" "Conn_01x01"
-			(at 146.05 132.0799 0)
+			(at 165.1001 48.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4577,8 +4349,8 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" ""
-			(at 143.51 130.81 0)
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical"
+			(at 166.37 50.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4587,7 +4359,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 143.51 130.81 0)
+			(at 166.37 50.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4596,7 +4368,7 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 143.51 130.81 0)
+			(at 166.37 50.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4605,12 +4377,12 @@
 			)
 		)
 		(pin "1"
-			(uuid "c77cd149-9dc4-40b3-9645-7b3318fbe9e5")
+			(uuid "5da076f9-fa1e-405b-b0db-e71fe28e7581")
 		)
 		(instances
 			(project "DCDC_Converter_DemoBoard"
 				(path "/1ffc2b1f-2eb0-4f52-971f-10c5a27c8dc9"
-					(reference "J17")
+					(reference "J9")
 					(unit 1)
 				)
 			)
@@ -4645,7 +4417,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
 			(at 195.326 127.254 90)
 			(effects
 				(font
@@ -4688,73 +4460,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector_Generic:Conn_01x01")
-		(at 115.57 71.12 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "5885f2e6-57b1-4af0-973d-131074f0fd20")
-		(property "Reference" "J12"
-			(at 114.554 68.834 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "Conn_01x01"
-			(at 118.11 72.3899 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Footprint" ""
-			(at 115.57 71.12 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 115.57 71.12 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Generic connector, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 115.57 71.12 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "817d80be-c72a-44b9-a472-b204a2416f90")
-		)
-		(instances
-			(project "DCDC_Converter_DemoBoard"
-				(path "/1ffc2b1f-2eb0-4f52-971f-10c5a27c8dc9"
-					(reference "J12")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:L")
 		(at 185.42 55.88 90)
 		(unit 1)
@@ -4764,7 +4469,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "599b7417-1a92-4f48-a051-c3dee430c5df")
-		(property "Reference" "L2"
+		(property "Reference" "L13"
 			(at 185.42 50.8 90)
 			(effects
 				(font
@@ -4780,7 +4485,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Inductor_SMD:L_10.4x10.4_H4.8"
 			(at 185.42 55.88 0)
 			(effects
 				(font
@@ -4816,74 +4521,7 @@
 		(instances
 			(project "DCDC_Converter_DemoBoard"
 				(path "/1ffc2b1f-2eb0-4f52-971f-10c5a27c8dc9"
-					(reference "L2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector_Generic:Conn_01x01")
-		(at 171.45 71.12 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "5a2bd026-46e3-4ab4-919d-06e77ef9d9f7")
-		(property "Reference" "J8"
-			(at 170.434 68.834 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "Conn_01x01"
-			(at 173.99 72.3899 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Footprint" ""
-			(at 171.45 71.12 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 171.45 71.12 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Generic connector, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 171.45 71.12 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "0c96ffb8-08f3-4fd8-8d00-4ee1873cf226")
-		)
-		(instances
-			(project "DCDC_Converter_DemoBoard"
-				(path "/1ffc2b1f-2eb0-4f52-971f-10c5a27c8dc9"
-					(reference "J8")
+					(reference "L13")
 					(unit 1)
 				)
 			)
@@ -4899,7 +4537,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "5c85c6f9-a4aa-4f8f-81dc-7a1059ab13a7")
-		(property "Reference" "R8"
+		(property "Reference" "R1"
 			(at 90.17 52.07 90)
 			(effects
 				(font
@@ -4917,7 +4555,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
 			(at 90.424 54.864 90)
 			(effects
 				(font
@@ -4953,74 +4591,7 @@
 		(instances
 			(project "DCDC_Converter_DemoBoard"
 				(path "/1ffc2b1f-2eb0-4f52-971f-10c5a27c8dc9"
-					(reference "R8")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector_Generic:Conn_01x01")
-		(at 199.39 63.5 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "5d8460e9-5250-40d5-abfa-d516bcb5fd7e")
-		(property "Reference" "J5"
-			(at 198.374 61.214 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "Conn_01x01"
-			(at 201.93 64.7699 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Footprint" ""
-			(at 199.39 63.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 199.39 63.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Generic connector, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 199.39 63.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "e01eeb1c-ebc6-4725-ba23-39f1979460d0")
-		)
-		(instances
-			(project ""
-				(path "/1ffc2b1f-2eb0-4f52-971f-10c5a27c8dc9"
-					(reference "J5")
+					(reference "R1")
 					(unit 1)
 				)
 			)
@@ -5035,7 +4606,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "5e634e16-93ba-4ee6-a26c-9e889206006e")
-		(property "Reference" "JP8"
+		(property "Reference" "JP9"
 			(at 133.35 59.69 0)
 			(effects
 				(font
@@ -5052,7 +4623,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical"
 			(at 133.35 63.5 0)
 			(effects
 				(font
@@ -5088,7 +4659,7 @@
 		(instances
 			(project "DCDC_Converter_DemoBoard"
 				(path "/1ffc2b1f-2eb0-4f52-971f-10c5a27c8dc9"
-					(reference "JP8")
+					(reference "JP9")
 					(unit 1)
 				)
 			)
@@ -5104,7 +4675,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "62ccdcbf-ddaf-4fc6-b706-8c5d34e2fc5f")
-		(property "Reference" "L13"
+		(property "Reference" "L10"
 			(at 157.48 118.11 90)
 			(effects
 				(font
@@ -5120,7 +4691,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Inductor_SMD:L_10.4x10.4_H4.8"
 			(at 157.48 123.19 0)
 			(effects
 				(font
@@ -5156,141 +4727,7 @@
 		(instances
 			(project "DCDC_Converter_DemoBoard"
 				(path "/1ffc2b1f-2eb0-4f52-971f-10c5a27c8dc9"
-					(reference "L13")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector_Generic:Conn_01x01")
-		(at 171.45 63.5 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "690c80bb-a726-420f-a223-57c49cc2056e")
-		(property "Reference" "J7"
-			(at 170.434 61.214 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "Conn_01x01"
-			(at 173.99 64.7699 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Footprint" ""
-			(at 171.45 63.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 171.45 63.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Generic connector, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 171.45 63.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "b31d39d4-029d-46ab-a2a7-afbb8c7602ec")
-		)
-		(instances
-			(project "DCDC_Converter_DemoBoard"
-				(path "/1ffc2b1f-2eb0-4f52-971f-10c5a27c8dc9"
-					(reference "J7")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector_Generic:Conn_01x01")
-		(at 115.57 63.5 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "6c1628ba-4615-48fb-840c-95f142cc62cb")
-		(property "Reference" "J11"
-			(at 114.554 61.214 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "Conn_01x01"
-			(at 118.11 64.7699 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Footprint" ""
-			(at 115.57 63.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 115.57 63.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Generic connector, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 115.57 63.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "be1de75c-1bad-46bd-b6aa-edd90a00d1df")
-		)
-		(instances
-			(project "DCDC_Converter_DemoBoard"
-				(path "/1ffc2b1f-2eb0-4f52-971f-10c5a27c8dc9"
-					(reference "J11")
+					(reference "L10")
 					(unit 1)
 				)
 			)
@@ -5305,7 +4742,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "6d3c261f-cfe8-43b2-a759-d899aadc0931")
-		(property "Reference" "#PWR023"
+		(property "Reference" "#PWR018"
 			(at 156.21 144.78 0)
 			(effects
 				(font
@@ -5355,7 +4792,7 @@
 		(instances
 			(project "DCDC_Converter_DemoBoard"
 				(path "/1ffc2b1f-2eb0-4f52-971f-10c5a27c8dc9"
-					(reference "#PWR023")
+					(reference "#PWR018")
 					(unit 1)
 				)
 			)
@@ -5370,7 +4807,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "729b338e-159b-48af-a39f-27ee793d399e")
-		(property "Reference" "#PWR027"
+		(property "Reference" "#PWR026"
 			(at 194.31 152.4 0)
 			(effects
 				(font
@@ -5420,7 +4857,7 @@
 		(instances
 			(project "DCDC_Converter_DemoBoard"
 				(path "/1ffc2b1f-2eb0-4f52-971f-10c5a27c8dc9"
-					(reference "#PWR027")
+					(reference "#PWR026")
 					(unit 1)
 				)
 			)
@@ -5436,7 +4873,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "7aa67fdd-7be2-4f78-9c50-776f181324ef")
-		(property "Reference" "R5"
+		(property "Reference" "R13"
 			(at 172.72 52.07 90)
 			(effects
 				(font
@@ -5454,7 +4891,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
 			(at 172.974 54.864 90)
 			(effects
 				(font
@@ -5490,7 +4927,7 @@
 		(instances
 			(project "DCDC_Converter_DemoBoard"
 				(path "/1ffc2b1f-2eb0-4f52-971f-10c5a27c8dc9"
-					(reference "R5")
+					(reference "R13")
 					(unit 1)
 				)
 			)
@@ -5505,7 +4942,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "7bdaea74-1e9f-4955-8782-32a16ea5ee12")
-		(property "Reference" "#PWR01"
+		(property "Reference" "#PWR021"
 			(at 184.15 69.85 0)
 			(effects
 				(font
@@ -5555,7 +4992,7 @@
 		(instances
 			(project ""
 				(path "/1ffc2b1f-2eb0-4f52-971f-10c5a27c8dc9"
-					(reference "#PWR01")
+					(reference "#PWR021")
 					(unit 1)
 				)
 			)
@@ -5570,7 +5007,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "7d31390c-b498-43b1-81ab-b71ea5768597")
-		(property "Reference" "JP18"
+		(property "Reference" "JP11"
 			(at 133.35 127 0)
 			(effects
 				(font
@@ -5587,7 +5024,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical"
 			(at 133.35 130.81 0)
 			(effects
 				(font
@@ -5623,7 +5060,7 @@
 		(instances
 			(project "DCDC_Converter_DemoBoard"
 				(path "/1ffc2b1f-2eb0-4f52-971f-10c5a27c8dc9"
-					(reference "JP18")
+					(reference "JP11")
 					(unit 1)
 				)
 			)
@@ -5639,7 +5076,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "82e9e158-b6b0-4ea8-a7ac-ac3f96aa44ed")
-		(property "Reference" "L12"
+		(property "Reference" "L8"
 			(at 139.7 140.9699 0)
 			(effects
 				(font
@@ -5658,7 +5095,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Inductor_SMD:L_1812_4532Metric_Pad1.30x3.40mm_HandSolder"
 			(at 138.43 142.24 0)
 			(effects
 				(font
@@ -5694,7 +5131,7 @@
 		(instances
 			(project "DCDC_Converter_DemoBoard"
 				(path "/1ffc2b1f-2eb0-4f52-971f-10c5a27c8dc9"
-					(reference "L12")
+					(reference "L8")
 					(unit 1)
 				)
 			)
@@ -5710,7 +5147,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "83ee64e1-e842-46be-a0ec-076b2ab86a90")
-		(property "Reference" "C5"
+		(property "Reference" "C2"
 			(at 114.3 133.3499 0)
 			(effects
 				(font
@@ -5729,7 +5166,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
 			(at 111.4552 138.43 0)
 			(effects
 				(font
@@ -5765,7 +5202,76 @@
 		(instances
 			(project "DCDC_Converter_DemoBoard"
 				(path "/1ffc2b1f-2eb0-4f52-971f-10c5a27c8dc9"
-					(reference "C5")
+					(reference "C2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector_Generic:Conn_01x01")
+		(at 110.49 118.11 270)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "87553793-fd14-4f03-b75e-7196fc5a615b")
+		(property "Reference" "J6"
+			(at 113.03 118.1099 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Conn_01x01"
+			(at 109.2201 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical"
+			(at 110.49 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 110.49 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 110.49 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "d442c752-6175-46d7-bf29-d6d4b901561e")
+		)
+		(instances
+			(project "DCDC_Converter_DemoBoard"
+				(path "/1ffc2b1f-2eb0-4f52-971f-10c5a27c8dc9"
+					(reference "J6")
 					(unit 1)
 				)
 			)
@@ -5781,7 +5287,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "8b3aa0c9-83be-4cc5-8384-a233cdb3d684")
-		(property "Reference" "R6"
+		(property "Reference" "R9"
 			(at 144.78 52.07 90)
 			(effects
 				(font
@@ -5799,7 +5305,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
 			(at 145.034 54.864 90)
 			(effects
 				(font
@@ -5835,7 +5341,7 @@
 		(instances
 			(project "DCDC_Converter_DemoBoard"
 				(path "/1ffc2b1f-2eb0-4f52-971f-10c5a27c8dc9"
-					(reference "R6")
+					(reference "R9")
 					(unit 1)
 				)
 			)
@@ -5851,7 +5357,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "8d2e7c52-c98e-41c8-b886-c57de6feaa29")
-		(property "Reference" "L11"
+		(property "Reference" "L6"
 			(at 129.54 118.11 90)
 			(effects
 				(font
@@ -5867,7 +5373,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Inductor_SMD:L_10.4x10.4_H4.8"
 			(at 129.54 123.19 0)
 			(effects
 				(font
@@ -5903,7 +5409,7 @@
 		(instances
 			(project "DCDC_Converter_DemoBoard"
 				(path "/1ffc2b1f-2eb0-4f52-971f-10c5a27c8dc9"
-					(reference "L11")
+					(reference "L6")
 					(unit 1)
 				)
 			)
@@ -5918,7 +5424,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "8da954ba-90cb-4177-b434-36d004667364")
-		(property "Reference" "#PWR019"
+		(property "Reference" "#PWR011"
 			(at 128.27 137.16 0)
 			(effects
 				(font
@@ -5968,7 +5474,7 @@
 		(instances
 			(project "DCDC_Converter_DemoBoard"
 				(path "/1ffc2b1f-2eb0-4f52-971f-10c5a27c8dc9"
-					(reference "#PWR019")
+					(reference "#PWR011")
 					(unit 1)
 				)
 			)
@@ -6000,7 +5506,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical"
 			(at 189.23 138.43 0)
 			(effects
 				(font
@@ -6116,7 +5622,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "9353b02f-9ad5-4954-83f2-4855b045b28a")
-		(property "Reference" "JP4"
+		(property "Reference" "JP15"
 			(at 153.67 40.894 0)
 			(effects
 				(font
@@ -6132,7 +5638,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical"
 			(at 157.48 46.99 0)
 			(effects
 				(font
@@ -6168,7 +5674,7 @@
 		(instances
 			(project "DCDC_Converter_DemoBoard"
 				(path "/1ffc2b1f-2eb0-4f52-971f-10c5a27c8dc9"
-					(reference "JP4")
+					(reference "JP15")
 					(unit 1)
 				)
 			)
@@ -6184,7 +5690,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "9451fddd-27b3-4325-a71a-97d06122b912")
-		(property "Reference" "C1"
+		(property "Reference" "C7"
 			(at 198.12 66.0399 0)
 			(effects
 				(font
@@ -6203,7 +5709,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
 			(at 195.2752 71.12 0)
 			(effects
 				(font
@@ -6239,7 +5745,76 @@
 		(instances
 			(project ""
 				(path "/1ffc2b1f-2eb0-4f52-971f-10c5a27c8dc9"
-					(reference "C1")
+					(reference "C7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector_Generic:Conn_01x01")
+		(at 110.49 50.8 270)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "94ae0015-436b-4181-9f0e-71a40c97b4f2")
+		(property "Reference" "J5"
+			(at 113.03 50.7999 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Conn_01x01"
+			(at 109.2201 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical"
+			(at 110.49 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 110.49 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 110.49 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "bf774cfe-b266-4924-b325-ec599b781533")
+		)
+		(instances
+			(project "DCDC_Converter_DemoBoard"
+				(path "/1ffc2b1f-2eb0-4f52-971f-10c5a27c8dc9"
+					(reference "J5")
 					(unit 1)
 				)
 			)
@@ -6255,7 +5830,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "9a10122f-6d9b-4fbe-bd59-b19d9623aa5f")
-		(property "Reference" "L6"
+		(property "Reference" "L7"
 			(at 139.7 73.6599 0)
 			(effects
 				(font
@@ -6274,7 +5849,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Inductor_SMD:L_1812_4532Metric_Pad1.30x3.40mm_HandSolder"
 			(at 138.43 74.93 0)
 			(effects
 				(font
@@ -6310,7 +5885,7 @@
 		(instances
 			(project "DCDC_Converter_DemoBoard"
 				(path "/1ffc2b1f-2eb0-4f52-971f-10c5a27c8dc9"
-					(reference "L6")
+					(reference "L7")
 					(unit 1)
 				)
 			)
@@ -6325,7 +5900,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "9e577de1-f778-486f-aca8-6acc0e7887c0")
-		(property "Reference" "#PWR05"
+		(property "Reference" "#PWR015"
 			(at 156.21 69.85 0)
 			(effects
 				(font
@@ -6375,7 +5950,7 @@
 		(instances
 			(project "DCDC_Converter_DemoBoard"
 				(path "/1ffc2b1f-2eb0-4f52-971f-10c5a27c8dc9"
-					(reference "#PWR05")
+					(reference "#PWR015")
 					(unit 1)
 				)
 			)
@@ -6391,7 +5966,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "9e6de836-368c-4c1d-823b-26f18305ecf4")
-		(property "Reference" "C6"
+		(property "Reference" "C4"
 			(at 142.24 133.3499 0)
 			(effects
 				(font
@@ -6410,7 +5985,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
 			(at 139.3952 138.43 0)
 			(effects
 				(font
@@ -6446,7 +6021,7 @@
 		(instances
 			(project "DCDC_Converter_DemoBoard"
 				(path "/1ffc2b1f-2eb0-4f52-971f-10c5a27c8dc9"
-					(reference "C6")
+					(reference "C4")
 					(unit 1)
 				)
 			)
@@ -6461,7 +6036,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "9efb98d0-ba72-46c8-a032-bef5d5212fcd")
-		(property "Reference" "#PWR011"
+		(property "Reference" "#PWR03"
 			(at 100.33 69.85 0)
 			(effects
 				(font
@@ -6511,7 +6086,7 @@
 		(instances
 			(project "DCDC_Converter_DemoBoard"
 				(path "/1ffc2b1f-2eb0-4f52-971f-10c5a27c8dc9"
-					(reference "#PWR011")
+					(reference "#PWR03")
 					(unit 1)
 				)
 			)
@@ -6526,7 +6101,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "a195bcf4-dec1-47c5-979e-88223e0082c4")
-		(property "Reference" "#PWR016"
+		(property "Reference" "#PWR05"
 			(at 100.33 137.16 0)
 			(effects
 				(font
@@ -6576,7 +6151,7 @@
 		(instances
 			(project "DCDC_Converter_DemoBoard"
 				(path "/1ffc2b1f-2eb0-4f52-971f-10c5a27c8dc9"
-					(reference "#PWR016")
+					(reference "#PWR05")
 					(unit 1)
 				)
 			)
@@ -6591,7 +6166,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "a3e3fa94-db55-41e5-8d73-f67f32cc2a22")
-		(property "Reference" "JP5"
+		(property "Reference" "JP17"
 			(at 161.29 59.69 0)
 			(effects
 				(font
@@ -6608,7 +6183,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical"
 			(at 161.29 63.5 0)
 			(effects
 				(font
@@ -6644,7 +6219,7 @@
 		(instances
 			(project "DCDC_Converter_DemoBoard"
 				(path "/1ffc2b1f-2eb0-4f52-971f-10c5a27c8dc9"
-					(reference "JP5")
+					(reference "JP17")
 					(unit 1)
 				)
 			)
@@ -6660,7 +6235,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "ad4eab86-5842-46c8-ac92-f29204c3aadf")
-		(property "Reference" "#PWR015"
+		(property "Reference" "#PWR02"
 			(at 86.36 137.16 0)
 			(effects
 				(font
@@ -6710,7 +6285,7 @@
 		(instances
 			(project "DCDC_Converter_DemoBoard"
 				(path "/1ffc2b1f-2eb0-4f52-971f-10c5a27c8dc9"
-					(reference "#PWR015")
+					(reference "#PWR02")
 					(unit 1)
 				)
 			)
@@ -6725,7 +6300,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "af334dff-ae91-4d4d-8e5c-476c5dfd5b9e")
-		(property "Reference" "JP24"
+		(property "Reference" "JP22"
 			(at 181.61 108.204 0)
 			(effects
 				(font
@@ -6741,7 +6316,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical"
 			(at 185.42 114.3 0)
 			(effects
 				(font
@@ -6777,7 +6352,7 @@
 		(instances
 			(project "DCDC_Converter_DemoBoard"
 				(path "/1ffc2b1f-2eb0-4f52-971f-10c5a27c8dc9"
-					(reference "JP24")
+					(reference "JP22")
 					(unit 1)
 				)
 			)
@@ -6793,7 +6368,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "af378ddc-78f0-448c-b1af-00c328006ec0")
-		(property "Reference" "R3"
+		(property "Reference" "R7"
 			(at 140.97 58.4199 0)
 			(effects
 				(font
@@ -6812,7 +6387,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
 			(at 139.446 59.944 90)
 			(effects
 				(font
@@ -6848,7 +6423,7 @@
 		(instances
 			(project "DCDC_Converter_DemoBoard"
 				(path "/1ffc2b1f-2eb0-4f52-971f-10c5a27c8dc9"
-					(reference "R3")
+					(reference "R7")
 					(unit 1)
 				)
 			)
@@ -6864,7 +6439,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b09ffaa1-35db-4e76-9fa3-1811a3547a99")
-		(property "Reference" "R2"
+		(property "Reference" "R11"
 			(at 168.91 58.4199 0)
 			(effects
 				(font
@@ -6883,7 +6458,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
 			(at 167.386 59.944 90)
 			(effects
 				(font
@@ -6919,7 +6494,7 @@
 		(instances
 			(project "DCDC_Converter_DemoBoard"
 				(path "/1ffc2b1f-2eb0-4f52-971f-10c5a27c8dc9"
-					(reference "R2")
+					(reference "R11")
 					(unit 1)
 				)
 			)
@@ -6950,7 +6525,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical"
 			(at 129.54 46.99 0)
 			(effects
 				(font
@@ -7002,7 +6577,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b115a3ef-30e5-4861-bfd5-43c893e504a7")
-		(property "Reference" "R7"
+		(property "Reference" "R5"
 			(at 116.84 52.07 90)
 			(effects
 				(font
@@ -7020,7 +6595,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
 			(at 117.094 54.864 90)
 			(effects
 				(font
@@ -7056,7 +6631,76 @@
 		(instances
 			(project "DCDC_Converter_DemoBoard"
 				(path "/1ffc2b1f-2eb0-4f52-971f-10c5a27c8dc9"
-					(reference "R7")
+					(reference "R5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector_Generic:Conn_01x01")
+		(at 196.85 50.8 270)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "b59072b4-67f9-46ff-840a-0c9647af7882")
+		(property "Reference" "J11"
+			(at 199.39 50.7999 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Conn_01x01"
+			(at 195.5801 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical"
+			(at 196.85 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 196.85 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 196.85 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "5fb344ef-0ff6-4ef0-afe3-be85bf8b07fd")
+		)
+		(instances
+			(project "DCDC_Converter_DemoBoard"
+				(path "/1ffc2b1f-2eb0-4f52-971f-10c5a27c8dc9"
+					(reference "J11")
 					(unit 1)
 				)
 			)
@@ -7071,7 +6715,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "b97c70a8-5d9b-46f8-a710-342e1c49c8d8")
-		(property "Reference" "JP14"
+		(property "Reference" "JP2"
 			(at 97.79 108.204 0)
 			(effects
 				(font
@@ -7087,7 +6731,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical"
 			(at 101.6 114.3 0)
 			(effects
 				(font
@@ -7123,7 +6767,7 @@
 		(instances
 			(project "DCDC_Converter_DemoBoard"
 				(path "/1ffc2b1f-2eb0-4f52-971f-10c5a27c8dc9"
-					(reference "JP14")
+					(reference "JP2")
 					(unit 1)
 				)
 			)
@@ -7139,7 +6783,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b99e0aa8-8be0-4442-9d51-1a624ba0a593")
-		(property "Reference" "R4"
+		(property "Reference" "R3"
 			(at 113.03 58.4199 0)
 			(effects
 				(font
@@ -7158,7 +6802,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
 			(at 111.506 59.944 90)
 			(effects
 				(font
@@ -7194,7 +6838,7 @@
 		(instances
 			(project "DCDC_Converter_DemoBoard"
 				(path "/1ffc2b1f-2eb0-4f52-971f-10c5a27c8dc9"
-					(reference "R4")
+					(reference "R3")
 					(unit 1)
 				)
 			)
@@ -7210,7 +6854,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "bbc355f2-9ebf-4590-83aa-b0b5ebc5356b")
-		(property "Reference" "L7"
+		(property "Reference" "L1"
 			(at 101.6 50.8 90)
 			(effects
 				(font
@@ -7226,7 +6870,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Inductor_SMD:L_10.4x10.4_H4.8"
 			(at 101.6 55.88 0)
 			(effects
 				(font
@@ -7262,7 +6906,7 @@
 		(instances
 			(project "DCDC_Converter_DemoBoard"
 				(path "/1ffc2b1f-2eb0-4f52-971f-10c5a27c8dc9"
-					(reference "L7")
+					(reference "L1")
 					(unit 1)
 				)
 			)
@@ -7297,7 +6941,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
 			(at 139.3952 71.12 0)
 			(effects
 				(font
@@ -7349,7 +6993,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "be69ef9f-71a8-4fe6-b252-25e6d48b3eeb")
-		(property "Reference" "L1"
+		(property "Reference" "L15"
 			(at 195.58 73.6599 0)
 			(effects
 				(font
@@ -7368,7 +7012,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Inductor_SMD:L_1008_2520Metric_Pad1.43x2.20mm_HandSolder"
 			(at 194.31 74.93 0)
 			(effects
 				(font
@@ -7404,7 +7048,7 @@
 		(instances
 			(project ""
 				(path "/1ffc2b1f-2eb0-4f52-971f-10c5a27c8dc9"
-					(reference "L1")
+					(reference "L15")
 					(unit 1)
 				)
 			)
@@ -7419,7 +7063,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "bf888afd-efdb-4722-8aae-aa55dc8269ab")
-		(property "Reference" "#PWR07"
+		(property "Reference" "#PWR019"
 			(at 166.37 85.09 0)
 			(effects
 				(font
@@ -7469,7 +7113,7 @@
 		(instances
 			(project "DCDC_Converter_DemoBoard"
 				(path "/1ffc2b1f-2eb0-4f52-971f-10c5a27c8dc9"
-					(reference "#PWR07")
+					(reference "#PWR019")
 					(unit 1)
 				)
 			)
@@ -7485,7 +7129,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c0e2670b-18eb-403b-a1af-a1d4060531fe")
-		(property "Reference" "J1"
+		(property "Reference" "J13"
 			(at 212.09 54.6099 0)
 			(effects
 				(font
@@ -7504,7 +7148,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical"
 			(at 209.55 55.88 0)
 			(effects
 				(font
@@ -7532,12 +7176,12 @@
 			)
 		)
 		(pin "1"
-			(uuid "743d324c-8fa6-4ba9-aaba-6e5ef1e2d970")
+			(uuid "743d324c-8fa6-4ba9-aaba-6e5ef1e2d971")
 		)
 		(instances
 			(project ""
 				(path "/1ffc2b1f-2eb0-4f52-971f-10c5a27c8dc9"
-					(reference "J1")
+					(reference "J13")
 					(unit 1)
 				)
 			)
@@ -7552,7 +7196,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "c12743ff-ff13-48e8-af00-0e9cebf23566")
-		(property "Reference" "JP23"
+		(property "Reference" "JP20"
 			(at 161.036 135.128 0)
 			(effects
 				(font
@@ -7569,7 +7213,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical"
 			(at 161.29 138.43 0)
 			(effects
 				(font
@@ -7605,7 +7249,7 @@
 		(instances
 			(project "DCDC_Converter_DemoBoard"
 				(path "/1ffc2b1f-2eb0-4f52-971f-10c5a27c8dc9"
-					(reference "JP23")
+					(reference "JP20")
 					(unit 1)
 				)
 			)
@@ -7620,7 +7264,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "c249f557-aa57-4c77-866f-e910d7faa31e")
-		(property "Reference" "#PWR09"
+		(property "Reference" "#PWR010"
 			(at 128.27 77.47 0)
 			(effects
 				(font
@@ -7670,7 +7314,7 @@
 		(instances
 			(project "DCDC_Converter_DemoBoard"
 				(path "/1ffc2b1f-2eb0-4f52-971f-10c5a27c8dc9"
-					(reference "#PWR09")
+					(reference "#PWR010")
 					(unit 1)
 				)
 			)
@@ -7685,7 +7329,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "c628ea00-450f-4528-954c-c967522931ba")
-		(property "Reference" "JP17"
+		(property "Reference" "JP8"
 			(at 125.73 108.204 0)
 			(effects
 				(font
@@ -7701,7 +7345,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical"
 			(at 129.54 114.3 0)
 			(effects
 				(font
@@ -7737,7 +7381,7 @@
 		(instances
 			(project "DCDC_Converter_DemoBoard"
 				(path "/1ffc2b1f-2eb0-4f52-971f-10c5a27c8dc9"
-					(reference "JP17")
+					(reference "JP8")
 					(unit 1)
 				)
 			)
@@ -7753,7 +7397,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c76d275d-9fe6-4ba4-8bf0-9b487e8e4e47")
-		(property "Reference" "C7"
+		(property "Reference" "C6"
 			(at 170.18 133.3499 0)
 			(effects
 				(font
@@ -7772,7 +7416,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
 			(at 167.3352 138.43 0)
 			(effects
 				(font
@@ -7808,7 +7452,7 @@
 		(instances
 			(project "DCDC_Converter_DemoBoard"
 				(path "/1ffc2b1f-2eb0-4f52-971f-10c5a27c8dc9"
-					(reference "C7")
+					(reference "C6")
 					(unit 1)
 				)
 			)
@@ -7823,7 +7467,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "cbab7c80-00b1-43e6-a58c-0a0809e4d403")
-		(property "Reference" "#PWR026"
+		(property "Reference" "#PWR024"
 			(at 184.15 144.78 0)
 			(effects
 				(font
@@ -7873,7 +7517,7 @@
 		(instances
 			(project "DCDC_Converter_DemoBoard"
 				(path "/1ffc2b1f-2eb0-4f52-971f-10c5a27c8dc9"
-					(reference "#PWR026")
+					(reference "#PWR024")
 					(unit 1)
 				)
 			)
@@ -7909,7 +7553,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical"
 			(at 81.28 130.81 0)
 			(effects
 				(font
@@ -7957,7 +7601,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "cfc9dbc4-baa7-4ee6-af85-7e8f42aa37d3")
-		(property "Reference" "#PWR02"
+		(property "Reference" "#PWR022"
 			(at 184.15 77.47 0)
 			(effects
 				(font
@@ -8002,12 +7646,12 @@
 			)
 		)
 		(pin "1"
-			(uuid "1ad89476-2b9a-4c33-a17c-ddb77bd1f8e7")
+			(uuid "1ad89476-2b9a-4c33-a17c-ddb77bd1f8e8")
 		)
 		(instances
 			(project ""
 				(path "/1ffc2b1f-2eb0-4f52-971f-10c5a27c8dc9"
-					(reference "#PWR02")
+					(reference "#PWR022")
 					(unit 1)
 				)
 			)
@@ -8022,7 +7666,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "d19d90c5-6dad-4597-a3c4-acf48873428e")
-		(property "Reference" "JP6"
+		(property "Reference" "JP18"
 			(at 161.036 67.818 0)
 			(effects
 				(font
@@ -8039,7 +7683,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical"
 			(at 161.29 71.12 0)
 			(effects
 				(font
@@ -8075,74 +7719,7 @@
 		(instances
 			(project "DCDC_Converter_DemoBoard"
 				(path "/1ffc2b1f-2eb0-4f52-971f-10c5a27c8dc9"
-					(reference "JP6")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector_Generic:Conn_01x01")
-		(at 115.57 138.43 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "d4e4ab63-0d2a-4f1a-a1c0-1cc2afde7f7e")
-		(property "Reference" "J16"
-			(at 114.554 136.144 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "Conn_01x01"
-			(at 118.11 139.6999 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Footprint" ""
-			(at 115.57 138.43 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 115.57 138.43 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Generic connector, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 115.57 138.43 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "b8cb1595-0f81-4a74-9e71-a3023fabc334")
-		)
-		(instances
-			(project "DCDC_Converter_DemoBoard"
-				(path "/1ffc2b1f-2eb0-4f52-971f-10c5a27c8dc9"
-					(reference "J16")
+					(reference "JP18")
 					(unit 1)
 				)
 			)
@@ -8157,7 +7734,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "d56c1f58-0110-4491-911a-34305201735a")
-		(property "Reference" "#PWR03"
+		(property "Reference" "#PWR025"
 			(at 194.31 85.09 0)
 			(effects
 				(font
@@ -8207,7 +7784,7 @@
 		(instances
 			(project "DCDC_Converter_DemoBoard"
 				(path "/1ffc2b1f-2eb0-4f52-971f-10c5a27c8dc9"
-					(reference "#PWR03")
+					(reference "#PWR025")
 					(unit 1)
 				)
 			)
@@ -8222,7 +7799,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "d610852d-f30e-489e-855d-129b992cd198")
-		(property "Reference" "#PWR024"
+		(property "Reference" "#PWR020"
 			(at 166.37 152.4 0)
 			(effects
 				(font
@@ -8272,7 +7849,7 @@
 		(instances
 			(project "DCDC_Converter_DemoBoard"
 				(path "/1ffc2b1f-2eb0-4f52-971f-10c5a27c8dc9"
-					(reference "#PWR024")
+					(reference "#PWR020")
 					(unit 1)
 				)
 			)
@@ -8287,7 +7864,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "d7ba7a54-c1b4-4074-8276-89346caeaa19")
-		(property "Reference" "#PWR08"
+		(property "Reference" "#PWR09"
 			(at 128.27 69.85 0)
 			(effects
 				(font
@@ -8337,7 +7914,7 @@
 		(instances
 			(project "DCDC_Converter_DemoBoard"
 				(path "/1ffc2b1f-2eb0-4f52-971f-10c5a27c8dc9"
-					(reference "#PWR08")
+					(reference "#PWR09")
 					(unit 1)
 				)
 			)
@@ -8352,7 +7929,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "dcc8003b-e574-4713-a93f-87c5c33a0202")
-		(property "Reference" "JP10"
+		(property "Reference" "JP13"
 			(at 134.62 26.924 0)
 			(effects
 				(font
@@ -8368,7 +7945,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical"
 			(at 138.43 33.02 0)
 			(effects
 				(font
@@ -8404,7 +7981,7 @@
 		(instances
 			(project "DCDC_Converter_DemoBoard"
 				(path "/1ffc2b1f-2eb0-4f52-971f-10c5a27c8dc9"
-					(reference "JP10")
+					(reference "JP13")
 					(unit 1)
 				)
 			)
@@ -8420,7 +7997,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ddf3442e-981f-4a1a-a8c5-90da026e09a8")
-		(property "Reference" "L8"
+		(property "Reference" "L3"
 			(at 111.76 73.6599 0)
 			(effects
 				(font
@@ -8439,7 +8016,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Inductor_SMD:L_1812_4532Metric_Pad1.30x3.40mm_HandSolder"
 			(at 110.49 74.93 0)
 			(effects
 				(font
@@ -8475,7 +8052,7 @@
 		(instances
 			(project "DCDC_Converter_DemoBoard"
 				(path "/1ffc2b1f-2eb0-4f52-971f-10c5a27c8dc9"
-					(reference "L8")
+					(reference "L3")
 					(unit 1)
 				)
 			)
@@ -8491,7 +8068,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "df61ac91-7d9d-4a66-af73-274274132eb5")
-		(property "Reference" "R15"
+		(property "Reference" "R14"
 			(at 172.72 119.38 90)
 			(effects
 				(font
@@ -8509,7 +8086,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
 			(at 172.974 122.174 90)
 			(effects
 				(font
@@ -8545,7 +8122,76 @@
 		(instances
 			(project "DCDC_Converter_DemoBoard"
 				(path "/1ffc2b1f-2eb0-4f52-971f-10c5a27c8dc9"
-					(reference "R15")
+					(reference "R14")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector_Generic:Conn_01x01")
+		(at 138.43 50.8 270)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "df72d3db-48bf-4c4d-8032-6136fde52401")
+		(property "Reference" "J7"
+			(at 140.97 50.7999 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Conn_01x01"
+			(at 137.1601 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical"
+			(at 138.43 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 138.43 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 138.43 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "8f75b753-937c-45e5-85dd-0ec6af1373b3")
+		)
+		(instances
+			(project "DCDC_Converter_DemoBoard"
+				(path "/1ffc2b1f-2eb0-4f52-971f-10c5a27c8dc9"
+					(reference "J7")
 					(unit 1)
 				)
 			)
@@ -8560,7 +8206,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "e15f1123-877c-4ff6-b911-6deed8bdb702")
-		(property "Reference" "#PWR012"
+		(property "Reference" "#PWR04"
 			(at 100.33 77.47 0)
 			(effects
 				(font
@@ -8610,7 +8256,7 @@
 		(instances
 			(project "DCDC_Converter_DemoBoard"
 				(path "/1ffc2b1f-2eb0-4f52-971f-10c5a27c8dc9"
-					(reference "#PWR012")
+					(reference "#PWR04")
 					(unit 1)
 				)
 			)
@@ -8625,7 +8271,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "e387beec-920b-4d1b-b403-b581a968f08e")
-		(property "Reference" "#PWR010"
+		(property "Reference" "#PWR013"
 			(at 138.43 85.09 0)
 			(effects
 				(font
@@ -8675,7 +8321,7 @@
 		(instances
 			(project "DCDC_Converter_DemoBoard"
 				(path "/1ffc2b1f-2eb0-4f52-971f-10c5a27c8dc9"
-					(reference "#PWR010")
+					(reference "#PWR013")
 					(unit 1)
 				)
 			)
@@ -8690,7 +8336,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "e5ab411f-eb92-488c-9d4a-fee394a10da1")
-		(property "Reference" "#PWR018"
+		(property "Reference" "#PWR08"
 			(at 110.49 152.4 0)
 			(effects
 				(font
@@ -8740,7 +8386,7 @@
 		(instances
 			(project "DCDC_Converter_DemoBoard"
 				(path "/1ffc2b1f-2eb0-4f52-971f-10c5a27c8dc9"
-					(reference "#PWR018")
+					(reference "#PWR08")
 					(unit 1)
 				)
 			)
@@ -8755,7 +8401,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "e63621fb-c4e0-4c75-8509-f0ea90ad0532")
-		(property "Reference" "JP22"
+		(property "Reference" "JP19"
 			(at 161.29 127 0)
 			(effects
 				(font
@@ -8772,7 +8418,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical"
 			(at 161.29 130.81 0)
 			(effects
 				(font
@@ -8808,7 +8454,7 @@
 		(instances
 			(project "DCDC_Converter_DemoBoard"
 				(path "/1ffc2b1f-2eb0-4f52-971f-10c5a27c8dc9"
-					(reference "JP22")
+					(reference "JP19")
 					(unit 1)
 				)
 			)
@@ -8824,7 +8470,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e7bf6807-fbb6-4edb-8f6b-5f140f89849b")
-		(property "Reference" "L3"
+		(property "Reference" "L9"
 			(at 157.48 50.8 90)
 			(effects
 				(font
@@ -8840,7 +8486,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Inductor_SMD:L_10.4x10.4_H4.8"
 			(at 157.48 55.88 0)
 			(effects
 				(font
@@ -8876,74 +8522,7 @@
 		(instances
 			(project "DCDC_Converter_DemoBoard"
 				(path "/1ffc2b1f-2eb0-4f52-971f-10c5a27c8dc9"
-					(reference "L3")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector_Generic:Conn_01x01")
-		(at 143.51 71.12 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "e815b747-f3e8-48e3-9d77-98d202b41ebb")
-		(property "Reference" "J10"
-			(at 142.494 68.834 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "Conn_01x01"
-			(at 146.05 72.3899 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Footprint" ""
-			(at 143.51 71.12 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 143.51 71.12 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Generic connector, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 143.51 71.12 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "b6325fe7-1eaf-444f-b45d-2d08bf5cbffb")
-		)
-		(instances
-			(project "DCDC_Converter_DemoBoard"
-				(path "/1ffc2b1f-2eb0-4f52-971f-10c5a27c8dc9"
-					(reference "J10")
+					(reference "L9")
 					(unit 1)
 				)
 			)
@@ -8979,7 +8558,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical"
 			(at 81.28 123.19 0)
 			(effects
 				(font
@@ -9028,7 +8607,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "eb279118-387a-40df-b00f-c72db41b2033")
-		(property "Reference" "R10"
+		(property "Reference" "R4"
 			(at 113.03 125.7299 0)
 			(effects
 				(font
@@ -9047,7 +8626,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
 			(at 111.506 127.254 90)
 			(effects
 				(font
@@ -9083,7 +8662,7 @@
 		(instances
 			(project "DCDC_Converter_DemoBoard"
 				(path "/1ffc2b1f-2eb0-4f52-971f-10c5a27c8dc9"
-					(reference "R10")
+					(reference "R4")
 					(unit 1)
 				)
 			)
@@ -9098,7 +8677,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "ed3b21d1-fc6a-4b9c-b8f8-4b735402f1cc")
-		(property "Reference" "JP9"
+		(property "Reference" "JP10"
 			(at 133.096 67.818 0)
 			(effects
 				(font
@@ -9115,7 +8694,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical"
 			(at 133.35 71.12 0)
 			(effects
 				(font
@@ -9151,7 +8730,7 @@
 		(instances
 			(project "DCDC_Converter_DemoBoard"
 				(path "/1ffc2b1f-2eb0-4f52-971f-10c5a27c8dc9"
-					(reference "JP9")
+					(reference "JP10")
 					(unit 1)
 				)
 			)
@@ -9166,7 +8745,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "f0ad2d87-7022-4f93-913a-989cb65a1590")
-		(property "Reference" "JP2"
+		(property "Reference" "JP24"
 			(at 188.976 67.818 0)
 			(effects
 				(font
@@ -9183,7 +8762,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical"
 			(at 189.23 71.12 0)
 			(effects
 				(font
@@ -9211,15 +8790,15 @@
 			)
 		)
 		(pin "2"
-			(uuid "523f3f17-e439-42c3-bf53-d9b4d784a9d3")
+			(uuid "523f3f17-e439-42c3-bf53-d9b4d784a9d4")
 		)
 		(pin "1"
-			(uuid "78a7ee53-8613-466c-bb87-a6859227dfce")
+			(uuid "78a7ee53-8613-466c-bb87-a6859227dfcf")
 		)
 		(instances
 			(project ""
 				(path "/1ffc2b1f-2eb0-4f52-971f-10c5a27c8dc9"
-					(reference "JP2")
+					(reference "JP24")
 					(unit 1)
 				)
 			)
@@ -9235,7 +8814,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f18a9b32-f659-4e9f-b565-5c73c2853b63")
-		(property "Reference" "L4"
+		(property "Reference" "L11"
 			(at 167.64 73.6599 0)
 			(effects
 				(font
@@ -9254,7 +8833,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Inductor_SMD:L_1812_4532Metric_Pad1.30x3.40mm_HandSolder"
 			(at 166.37 74.93 0)
 			(effects
 				(font
@@ -9290,7 +8869,7 @@
 		(instances
 			(project "DCDC_Converter_DemoBoard"
 				(path "/1ffc2b1f-2eb0-4f52-971f-10c5a27c8dc9"
-					(reference "L4")
+					(reference "L11")
 					(unit 1)
 				)
 			)
@@ -9306,7 +8885,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f762690f-9386-4dfe-bb5e-30aa5ba70cbf")
-		(property "Reference" "R11"
+		(property "Reference" "R6"
 			(at 116.84 119.38 90)
 			(effects
 				(font
@@ -9324,7 +8903,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
 			(at 117.094 122.174 90)
 			(effects
 				(font
@@ -9360,7 +8939,7 @@
 		(instances
 			(project "DCDC_Converter_DemoBoard"
 				(path "/1ffc2b1f-2eb0-4f52-971f-10c5a27c8dc9"
-					(reference "R11")
+					(reference "R6")
 					(unit 1)
 				)
 			)
@@ -9376,7 +8955,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "f7c85a76-d595-4cf1-adb1-a4df9dc51012")
-		(property "Reference" "#PWR014"
+		(property "Reference" "#PWR01"
 			(at 86.36 69.85 0)
 			(effects
 				(font
@@ -9426,7 +9005,7 @@
 		(instances
 			(project "DCDC_Converter_DemoBoard"
 				(path "/1ffc2b1f-2eb0-4f52-971f-10c5a27c8dc9"
-					(reference "#PWR014")
+					(reference "#PWR01")
 					(unit 1)
 				)
 			)
@@ -9441,7 +9020,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "f894259b-dc78-420b-8146-44b6f9ba971d")
-		(property "Reference" "JP12"
+		(property "Reference" "JP3"
 			(at 105.41 59.69 0)
 			(effects
 				(font
@@ -9458,7 +9037,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical"
 			(at 105.41 63.5 0)
 			(effects
 				(font
@@ -9494,7 +9073,7 @@
 		(instances
 			(project "DCDC_Converter_DemoBoard"
 				(path "/1ffc2b1f-2eb0-4f52-971f-10c5a27c8dc9"
-					(reference "JP12")
+					(reference "JP3")
 					(unit 1)
 				)
 			)
@@ -9509,7 +9088,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "fb995b47-526c-4c2c-b7b8-1d071f68cf0f")
-		(property "Reference" "#PWR022"
+		(property "Reference" "#PWR017"
 			(at 156.21 137.16 0)
 			(effects
 				(font
@@ -9559,74 +9138,7 @@
 		(instances
 			(project "DCDC_Converter_DemoBoard"
 				(path "/1ffc2b1f-2eb0-4f52-971f-10c5a27c8dc9"
-					(reference "#PWR022")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector_Generic:Conn_01x01")
-		(at 171.45 138.43 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "fc09099a-f23b-48b7-83a1-5ec779d7ab87")
-		(property "Reference" "J20"
-			(at 170.434 136.144 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "Conn_01x01"
-			(at 173.99 139.6999 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Footprint" ""
-			(at 171.45 138.43 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 171.45 138.43 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Generic connector, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 171.45 138.43 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "c0c8bd07-a2ee-4669-9254-90d9701ede0b")
-		)
-		(instances
-			(project "DCDC_Converter_DemoBoard"
-				(path "/1ffc2b1f-2eb0-4f52-971f-10c5a27c8dc9"
-					(reference "J20")
+					(reference "#PWR017")
 					(unit 1)
 				)
 			)
@@ -9641,7 +9153,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "fc17006f-5f09-4f3d-9207-c4e4272f0980")
-		(property "Reference" "#PWR06"
+		(property "Reference" "#PWR016"
 			(at 156.21 77.47 0)
 			(effects
 				(font
@@ -9691,7 +9203,7 @@
 		(instances
 			(project "DCDC_Converter_DemoBoard"
 				(path "/1ffc2b1f-2eb0-4f52-971f-10c5a27c8dc9"
-					(reference "#PWR06")
+					(reference "#PWR016")
 					(unit 1)
 				)
 			)
@@ -9707,7 +9219,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "fc5ab321-a73c-4c1b-a5be-5cf07c2941b0")
-		(property "Reference" "C4"
+		(property "Reference" "C1"
 			(at 114.3 66.0399 0)
 			(effects
 				(font
@@ -9726,7 +9238,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
 			(at 111.4552 71.12 0)
 			(effects
 				(font
@@ -9762,7 +9274,7 @@
 		(instances
 			(project "DCDC_Converter_DemoBoard"
 				(path "/1ffc2b1f-2eb0-4f52-971f-10c5a27c8dc9"
-					(reference "C4")
+					(reference "C1")
 					(unit 1)
 				)
 			)
@@ -9778,7 +9290,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "fc75fbc6-b24a-4532-8603-5c945afc6952")
-		(property "Reference" "L14"
+		(property "Reference" "L12"
 			(at 167.64 140.9699 0)
 			(effects
 				(font
@@ -9797,7 +9309,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Inductor_SMD:L_1812_4532Metric_Pad1.30x3.40mm_HandSolder"
 			(at 166.37 142.24 0)
 			(effects
 				(font
@@ -9833,7 +9345,7 @@
 		(instances
 			(project "DCDC_Converter_DemoBoard"
 				(path "/1ffc2b1f-2eb0-4f52-971f-10c5a27c8dc9"
-					(reference "L14")
+					(reference "L12")
 					(unit 1)
 				)
 			)
@@ -9848,7 +9360,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "fceede31-4c08-4a1d-b4c6-d23abf38bc03")
-		(property "Reference" "#PWR025"
+		(property "Reference" "#PWR023"
 			(at 184.15 137.16 0)
 			(effects
 				(font
@@ -9898,7 +9410,7 @@
 		(instances
 			(project "DCDC_Converter_DemoBoard"
 				(path "/1ffc2b1f-2eb0-4f52-971f-10c5a27c8dc9"
-					(reference "#PWR025")
+					(reference "#PWR023")
 					(unit 1)
 				)
 			)
