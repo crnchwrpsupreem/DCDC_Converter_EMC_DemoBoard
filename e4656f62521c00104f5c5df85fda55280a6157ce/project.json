@@ -11,7 +11,7 @@
         "top": "boards/dcdc-converter-demoboard-508d0f/top.png",
         "bottom": "boards/dcdc-converter-demoboard-508d0f/bottom.png"
       },
-      "model": "boards/dcdc-converter-demoboard-508d0f/board-view.glb",
+      "model": "boards/dcdc-converter-demoboard-508d0f/board-a84080045604.glb",
       "schematics": [
         {
           "name": "DCDC Converter DemoBoard",
