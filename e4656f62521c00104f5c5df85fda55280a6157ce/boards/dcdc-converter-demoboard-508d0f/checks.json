@@ -1,0 +1,1275 @@
+{
+    "$schema": "https://schemas.kicad.org/drc.v1.json",
+    "coordinate_units": "mm",
+    "date": "2026-09-07T17:58:54",
+    "ignored_checks": [
+        {
+            "description": "Footprint has no courtyard defined",
+            "key": "missing_courtyard"
+        },
+        {
+            "description": "Track endpoint not centered on via",
+            "key": "track_not_centered_on_via"
+        },
+        {
+            "description": "Tuning profile track geometries",
+            "key": "tuning_profile_track_geometries"
+        },
+        {
+            "description": "Footprint doesn't match symbol's footprint filters",
+            "key": "footprint_filters_mismatch"
+        },
+        {
+            "description": "PTH inside courtyard",
+            "key": "pth_inside_courtyard"
+        },
+        {
+            "description": "NPTH inside courtyard",
+            "key": "npth_inside_courtyard"
+        },
+        {
+            "description": "Footprint component type doesn't match footprint pads",
+            "key": "footprint_type_mismatch"
+        }
+    ],
+    "included_severities": [
+        "error",
+        "warning"
+    ],
+    "kicad_version": "10.0.6",
+    "schematic_parity": [],
+    "source": "DCDC_Converter_DemoBoard.kicad_pcb",
+    "unconnected_items": [],
+    "violations": [
+        {
+            "description": "The current configuration does not include the footprint library 'Resistor_SMD'",
+            "items": [
+                {
+                    "description": "Footprint R6",
+                    "pos": {
+                        "x": 193.0,
+                        "y": 53.0
+                    },
+                    "uuid": "00a765fa-4ff2-49fb-91f9-a35cc2668545"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        },
+        {
+            "description": "The current configuration does not include the footprint library 'Connector_PinHeader_2.54mm'",
+            "items": [
+                {
+                    "description": "Footprint JP8",
+                    "pos": {
+                        "x": 198.46,
+                        "y": 45.0
+                    },
+                    "uuid": "01b82c1e-ae63-4d5e-a68a-65699bd3d0a5"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        },
+        {
+            "description": "The current configuration does not include the footprint library 'Connector_PinHeader_2.54mm'",
+            "items": [
+                {
+                    "description": "Footprint JP7",
+                    "pos": {
+                        "x": 89.46,
+                        "y": 45.0
+                    },
+                    "uuid": "02a772c9-c00f-4da9-9652-5b319ae13ef8"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        },
+        {
+            "description": "The current configuration does not include the footprint library 'Capacitor_SMD'",
+            "items": [
+                {
+                    "description": "Footprint C1",
+                    "pos": {
+                        "x": 79.485,
+                        "y": 65.5
+                    },
+                    "uuid": "03431e0e-aeba-45f5-b558-0b0a3b309b69"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        },
+        {
+            "description": "The current configuration does not include the footprint library 'Connector_PinHeader_2.54mm'",
+            "items": [
+                {
+                    "description": "Footprint J4",
+                    "pos": {
+                        "x": 172.5,
+                        "y": 70.5
+                    },
+                    "uuid": "04832557-e92e-4613-9eae-5407fdb9fd85"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        },
+        {
+            "description": "The current configuration does not include the footprint library 'Inductor_SMD'",
+            "items": [
+                {
+                    "description": "Footprint L7",
+                    "pos": {
+                        "x": 95.485,
+                        "y": 71.25
+                    },
+                    "uuid": "058b9215-a169-47e5-ade4-4a92905dfe89"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        },
+        {
+            "description": "The current configuration does not include the footprint library 'Connector_PinHeader_2.54mm'",
+            "items": [
+                {
+                    "description": "Footprint JP15",
+                    "pos": {
+                        "x": 105.46,
+                        "y": 45.1225
+                    },
+                    "uuid": "092290d8-03d3-4c6a-ad35-b459054cdbc4"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        },
+        {
+            "description": "The current configuration does not include the footprint library 'Connector_PinHeader_2.54mm'",
+            "items": [
+                {
+                    "description": "Footprint JP14",
+                    "pos": {
+                        "x": 234.46,
+                        "y": 41.0
+                    },
+                    "uuid": "098cbcf2-6ef1-4a1b-9287-f6ab6b3698ca"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        },
+        {
+            "description": "The current configuration does not include the footprint library 'Inductor_SMD'",
+            "items": [
+                {
+                    "description": "Footprint L13",
+                    "pos": {
+                        "x": 124.0,
+                        "y": 53.0
+                    },
+                    "uuid": "0b2155e5-aa23-4159-80a8-95258ed8735a"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        },
+        {
+            "description": "The current configuration does not include the footprint library 'Resistor_SMD'",
+            "items": [
+                {
+                    "description": "Footprint R2",
+                    "pos": {
+                        "x": 177.0,
+                        "y": 53.0
+                    },
+                    "uuid": "0e38ec1b-6f5c-40dc-b157-2cdb432df51a"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        },
+        {
+            "description": "The current configuration does not include the footprint library 'Connector_PinHeader_2.54mm'",
+            "items": [
+                {
+                    "description": "Footprint JP1",
+                    "pos": {
+                        "x": 73.46,
+                        "y": 45.0
+                    },
+                    "uuid": "0e7e971b-a1bb-4226-b036-262010dfe70f"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        },
+        {
+            "description": "The current configuration does not include the footprint library 'Resistor_SMD'",
+            "items": [
+                {
+                    "description": "Footprint R13",
+                    "pos": {
+                        "x": 116.0,
+                        "y": 53.0
+                    },
+                    "uuid": "1272f803-b4ea-4485-8622-aa30a7ff9cfe"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        },
+        {
+            "description": "The current configuration does not include the footprint library 'Connector_PinHeader_2.54mm'",
+            "items": [
+                {
+                    "description": "Footprint J15",
+                    "pos": {
+                        "x": 241.0,
+                        "y": 53.0
+                    },
+                    "uuid": "1861c7cc-9239-4a0d-a37b-99eb19ed3c65"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        },
+        {
+            "description": "The current configuration does not include the footprint library 'Connector_PinHeader_2.54mm'",
+            "items": [
+                {
+                    "description": "Footprint JP4",
+                    "pos": {
+                        "x": 73.445,
+                        "y": 65.5
+                    },
+                    "uuid": "1d08a61b-4bdd-45d5-bc5d-2731fcbbd19c"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        },
+        {
+            "description": "The current configuration does not include the footprint library 'Connector_PinHeader_2.54mm'",
+            "items": [
+                {
+                    "description": "Footprint J5",
+                    "pos": {
+                        "x": 79.75,
+                        "y": 45.0
+                    },
+                    "uuid": "2060982f-afa8-4c14-bb0c-0c55178d36e2"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        },
+        {
+            "description": "The current configuration does not include the footprint library 'Resistor_SMD'",
+            "items": [
+                {
+                    "description": "Footprint R12",
+                    "pos": {
+                        "x": 220.735,
+                        "y": 61.0
+                    },
+                    "uuid": "2bc62aa4-1fac-42ec-98d0-984f29a3af90"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        },
+        {
+            "description": "The current configuration does not include the footprint library 'Connector_PinHeader_2.54mm'",
+            "items": [
+                {
+                    "description": "Footprint JP22",
+                    "pos": {
+                        "x": 230.46,
+                        "y": 45.0
+                    },
+                    "uuid": "3215c65f-0328-4cc5-b80e-9fe0816d1045"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        },
+        {
+            "description": "The current configuration does not include the footprint library 'Connector_PinHeader_2.54mm'",
+            "items": [
+                {
+                    "description": "Footprint JP12",
+                    "pos": {
+                        "x": 198.46,
+                        "y": 65.5
+                    },
+                    "uuid": "35865507-753f-434b-934c-1044e110300a"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        },
+        {
+            "description": "The current configuration does not include the footprint library 'Connector_PinHeader_2.54mm'",
+            "items": [
+                {
+                    "description": "Footprint JP20",
+                    "pos": {
+                        "x": 214.46,
+                        "y": 65.5
+                    },
+                    "uuid": "385ddec6-c1e9-4572-8e1d-6f41023a80dd"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        },
+        {
+            "description": "The current configuration does not include the footprint library 'Capacitor_SMD'",
+            "items": [
+                {
+                    "description": "Footprint C2",
+                    "pos": {
+                        "x": 188.985,
+                        "y": 65.4625
+                    },
+                    "uuid": "3f9b8ddb-2b31-4d55-acf8-52ab0fa8b6df"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        },
+        {
+            "description": "The current configuration does not include the footprint library 'Resistor_SMD'",
+            "items": [
+                {
+                    "description": "Footprint R8",
+                    "pos": {
+                        "x": 204.985,
+                        "y": 61.0
+                    },
+                    "uuid": "44c13714-6ddf-4b4e-927e-1e4513adc9cb"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        },
+        {
+            "description": "The current configuration does not include the footprint library 'Capacitor_SMD'",
+            "items": [
+                {
+                    "description": "Footprint C4",
+                    "pos": {
+                        "x": 205.0,
+                        "y": 65.5
+                    },
+                    "uuid": "45de642c-eb8a-4407-8d5f-8abbc27640a9"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        },
+        {
+            "description": "The current configuration does not include the footprint library 'Inductor_SMD'",
+            "items": [
+                {
+                    "description": "Footprint L3",
+                    "pos": {
+                        "x": 79.485,
+                        "y": 71.25
+                    },
+                    "uuid": "4860097d-9287-4da9-9ab3-e5f5eddc657c"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        },
+        {
+            "description": "The current configuration does not include the footprint library 'Connector_PinHeader_2.54mm'",
+            "items": [
+                {
+                    "description": "Footprint JP10",
+                    "pos": {
+                        "x": 89.46,
+                        "y": 65.5
+                    },
+                    "uuid": "48f2d421-c214-4e9f-bedb-d34e773c80e3"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        },
+        {
+            "description": "The current configuration does not include the footprint library 'Connector_PinHeader_2.54mm'",
+            "items": [
+                {
+                    "description": "Footprint JP18",
+                    "pos": {
+                        "x": 105.485,
+                        "y": 65.5
+                    },
+                    "uuid": "4ce4aa3b-3cb7-4ac0-ba37-cccb57c97bb2"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        },
+        {
+            "description": "The current configuration does not include the footprint library 'Connector_PinHeader_2.54mm'",
+            "items": [
+                {
+                    "description": "Footprint J13",
+                    "pos": {
+                        "x": 132.5,
+                        "y": 53.0
+                    },
+                    "uuid": "50311836-a85e-443d-8dae-a9b597f026bf"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        },
+        {
+            "description": "The current configuration does not include the footprint library 'Resistor_SMD'",
+            "items": [
+                {
+                    "description": "Footprint R15",
+                    "pos": {
+                        "x": 127.485,
+                        "y": 61.0
+                    },
+                    "uuid": "5756f4f2-32d1-42fa-b24c-8054127e3aa5"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        },
+        {
+            "description": "The current configuration does not include the footprint library 'Connector_PinHeader_2.54mm'",
+            "items": [
+                {
+                    "description": "Footprint JP17",
+                    "pos": {
+                        "x": 105.46,
+                        "y": 61.0
+                    },
+                    "uuid": "5a234a22-8f39-47ff-9c7a-4445465eb232"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        },
+        {
+            "description": "The current configuration does not include the footprint library 'Resistor_SMD'",
+            "items": [
+                {
+                    "description": "Footprint R10",
+                    "pos": {
+                        "x": 209.0,
+                        "y": 53.0
+                    },
+                    "uuid": "5b07aa76-d866-471c-a7b2-a53fc464c4ea"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        },
+        {
+            "description": "The current configuration does not include the footprint library 'Inductor_SMD'",
+            "items": [
+                {
+                    "description": "Footprint L6",
+                    "pos": {
+                        "x": 201.0,
+                        "y": 53.0
+                    },
+                    "uuid": "62b5ec55-4712-44ea-ba65-a5b17961ac43"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        },
+        {
+            "description": "The current configuration does not include the footprint library 'Connector_PinHeader_2.54mm'",
+            "items": [
+                {
+                    "description": "Footprint J16",
+                    "pos": {
+                        "x": 241.0,
+                        "y": 70.5
+                    },
+                    "uuid": "6a889d3b-45a8-4fa8-85b2-a64531b431e7"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        },
+        {
+            "description": "The current configuration does not include the footprint library 'Resistor_SMD'",
+            "items": [
+                {
+                    "description": "Footprint R1",
+                    "pos": {
+                        "x": 68.0,
+                        "y": 53.0
+                    },
+                    "uuid": "71522c3b-aefc-40f5-8899-03cb43a32280"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        },
+        {
+            "description": "The current configuration does not include the footprint library 'Inductor_SMD'",
+            "items": [
+                {
+                    "description": "Footprint L12",
+                    "pos": {
+                        "x": 220.735,
+                        "y": 71.5
+                    },
+                    "uuid": "7b7a37fc-74d8-47f4-b232-7b78ddb599da"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        },
+        {
+            "description": "The current configuration does not include the footprint library 'Inductor_SMD'",
+            "items": [
+                {
+                    "description": "Footprint L16",
+                    "pos": {
+                        "x": 236.485,
+                        "y": 71.0
+                    },
+                    "uuid": "7ca64118-c5d9-4348-9f68-8e053156fce7"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        },
+        {
+            "description": "The current configuration does not include the footprint library 'Resistor_SMD'",
+            "items": [
+                {
+                    "description": "Footprint R4",
+                    "pos": {
+                        "x": 188.985,
+                        "y": 61.0
+                    },
+                    "uuid": "7e8ba6eb-5c5e-42a0-8aca-720bd820e36d"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        },
+        {
+            "description": "The current configuration does not include the footprint library 'Resistor_SMD'",
+            "items": [
+                {
+                    "description": "Footprint R14",
+                    "pos": {
+                        "x": 225.0,
+                        "y": 53.0
+                    },
+                    "uuid": "80376cb5-a775-41e2-8768-30e50af94f1b"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        },
+        {
+            "description": "The current configuration does not include the footprint library 'Resistor_SMD'",
+            "items": [
+                {
+                    "description": "Footprint R16",
+                    "pos": {
+                        "x": 236.5,
+                        "y": 61.0
+                    },
+                    "uuid": "85299fec-2f13-44c5-88f9-23a34fe20cb1"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        },
+        {
+            "description": "The current configuration does not include the footprint library 'Resistor_SMD'",
+            "items": [
+                {
+                    "description": "Footprint R3",
+                    "pos": {
+                        "x": 79.485,
+                        "y": 61.0
+                    },
+                    "uuid": "87a8eeaf-9dab-49d2-9888-83cfbbef330c"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        },
+        {
+            "description": "The current configuration does not include the footprint library 'Resistor_SMD'",
+            "items": [
+                {
+                    "description": "Footprint R7",
+                    "pos": {
+                        "x": 95.485,
+                        "y": 61.0
+                    },
+                    "uuid": "8a7644f4-a292-4ac1-9c84-29481c6ba8f8"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        },
+        {
+            "description": "The current configuration does not include the footprint library 'Inductor_SMD'",
+            "items": [
+                {
+                    "description": "Footprint L4",
+                    "pos": {
+                        "x": 188.985,
+                        "y": 71.7125
+                    },
+                    "uuid": "8c31213f-f27b-4703-958e-50375e37f384"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        },
+        {
+            "description": "The current configuration does not include the footprint library 'Inductor_SMD'",
+            "items": [
+                {
+                    "description": "Footprint L11",
+                    "pos": {
+                        "x": 111.485,
+                        "y": 71.25
+                    },
+                    "uuid": "8e8b9d89-fc76-423f-93e2-00b1f5057aa7"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        },
+        {
+            "description": "The current configuration does not include the footprint library 'Connector_PinHeader_2.54mm'",
+            "items": [
+                {
+                    "description": "Footprint J3",
+                    "pos": {
+                        "x": 172.5,
+                        "y": 53.0
+                    },
+                    "uuid": "8ec245c6-2674-442d-ac77-998d3cc12f22"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        },
+        {
+            "description": "The current configuration does not include the footprint library 'Connector_PinHeader_2.54mm'",
+            "items": [
+                {
+                    "description": "Footprint J8",
+                    "pos": {
+                        "x": 204.635,
+                        "y": 45.0
+                    },
+                    "uuid": "9047a5e5-34e4-4159-9c00-3bfc8ba8b5c1"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        },
+        {
+            "description": "The current configuration does not include the footprint library 'Connector_PinHeader_2.54mm'",
+            "items": [
+                {
+                    "description": "Footprint JP16",
+                    "pos": {
+                        "x": 214.46,
+                        "y": 45.0
+                    },
+                    "uuid": "980e02b1-2f17-4f69-8212-556b6b01d233"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        },
+        {
+            "description": "The current configuration does not include the footprint library 'Connector_PinHeader_2.54mm'",
+            "items": [
+                {
+                    "description": "Footprint JP26",
+                    "pos": {
+                        "x": 230.46,
+                        "y": 65.5
+                    },
+                    "uuid": "99100bc0-08ea-498c-ab20-347ddb68d30c"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        },
+        {
+            "description": "The current configuration does not include the footprint library 'Resistor_SMD'",
+            "items": [
+                {
+                    "description": "Footprint R11",
+                    "pos": {
+                        "x": 111.485,
+                        "y": 61.0
+                    },
+                    "uuid": "9dc5fee0-3d42-476e-8bee-f7abc22ce877"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        },
+        {
+            "description": "The current configuration does not include the footprint library 'Connector_PinHeader_2.54mm'",
+            "items": [
+                {
+                    "description": "Footprint JP3",
+                    "pos": {
+                        "x": 73.46,
+                        "y": 61.0
+                    },
+                    "uuid": "a2317abb-7fb1-4b1a-a3fb-0bb1520fd686"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        },
+        {
+            "description": "The current configuration does not include the footprint library 'Capacitor_SMD'",
+            "items": [
+                {
+                    "description": "Footprint C7",
+                    "pos": {
+                        "x": 127.485,
+                        "y": 65.5
+                    },
+                    "uuid": "a4bb9e6b-df4b-42b9-8b02-95c13a02a4b7"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        },
+        {
+            "description": "The current configuration does not include the footprint library 'Connector_PinHeader_2.54mm'",
+            "items": [
+                {
+                    "description": "Footprint J7",
+                    "pos": {
+                        "x": 95.67,
+                        "y": 44.9175
+                    },
+                    "uuid": "a6e7172c-0c5d-498b-bacc-38ae62a7cd64"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        },
+        {
+            "description": "The current configuration does not include the footprint library 'Connector_PinHeader_2.54mm'",
+            "items": [
+                {
+                    "description": "Footprint J9",
+                    "pos": {
+                        "x": 111.64,
+                        "y": 45.0
+                    },
+                    "uuid": "a6f0fc90-91f1-4b59-a5be-17caa85a9f0c"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        },
+        {
+            "description": "The current configuration does not include the footprint library 'Connector_PinHeader_2.54mm'",
+            "items": [
+                {
+                    "description": "Footprint J10",
+                    "pos": {
+                        "x": 220.66,
+                        "y": 45.0
+                    },
+                    "uuid": "aca06889-e344-4412-a03c-4da3c26abac0"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        },
+        {
+            "description": "The current configuration does not include the footprint library 'Connector_PinHeader_2.54mm'",
+            "items": [
+                {
+                    "description": "Footprint JP23",
+                    "pos": {
+                        "x": 121.46,
+                        "y": 61.0
+                    },
+                    "uuid": "adef05a4-33c5-4220-868f-50fba94bbdb9"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        },
+        {
+            "description": "The current configuration does not include the footprint library 'Capacitor_SMD'",
+            "items": [
+                {
+                    "description": "Footprint C8",
+                    "pos": {
+                        "x": 236.5,
+                        "y": 65.5
+                    },
+                    "uuid": "afd68cb7-8ce3-4d54-87ce-91368abac4d8"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        },
+        {
+            "description": "The current configuration does not include the footprint library 'Inductor_SMD'",
+            "items": [
+                {
+                    "description": "Footprint L14",
+                    "pos": {
+                        "x": 233.0,
+                        "y": 53.0
+                    },
+                    "uuid": "b34a803d-f806-4b31-a12e-48823108fcd0"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        },
+        {
+            "description": "The current configuration does not include the footprint library 'Connector_PinHeader_2.54mm'",
+            "items": [
+                {
+                    "description": "Footprint JP25",
+                    "pos": {
+                        "x": 230.46,
+                        "y": 61.0
+                    },
+                    "uuid": "b38421a4-3dae-4ae4-80c4-a95ee3d49cd3"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        },
+        {
+            "description": "The current configuration does not include the footprint library 'Connector_PinHeader_2.54mm'",
+            "items": [
+                {
+                    "description": "Footprint J14",
+                    "pos": {
+                        "x": 132.5,
+                        "y": 70.5
+                    },
+                    "uuid": "b4af40d9-d078-46fa-a851-4bf47d962f96"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        },
+        {
+            "description": "The current configuration does not include the footprint library 'Inductor_SMD'",
+            "items": [
+                {
+                    "description": "Footprint L2",
+                    "pos": {
+                        "x": 185.0,
+                        "y": 53.0
+                    },
+                    "uuid": "b503ab88-8548-4240-b91c-212bb392c452"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        },
+        {
+            "description": "The current configuration does not include the footprint library 'Inductor_SMD'",
+            "items": [
+                {
+                    "description": "Footprint L5",
+                    "pos": {
+                        "x": 92.0,
+                        "y": 53.0
+                    },
+                    "uuid": "b69138bf-e74d-4231-90e4-2c3d4faf5694"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        },
+        {
+            "description": "The current configuration does not include the footprint library 'Connector_PinHeader_2.54mm'",
+            "items": [
+                {
+                    "description": "Footprint J2",
+                    "pos": {
+                        "x": 64.0,
+                        "y": 70.5
+                    },
+                    "uuid": "b6faa5ea-28a0-4228-8261-812c62145cea"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        },
+        {
+            "description": "The current configuration does not include the footprint library 'Connector_PinHeader_2.54mm'",
+            "items": [
+                {
+                    "description": "Footprint JP11",
+                    "pos": {
+                        "x": 198.46,
+                        "y": 61.0
+                    },
+                    "uuid": "b7ea3b77-228c-4e7d-bf53-20e1d71c3e0c"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        },
+        {
+            "description": "The current configuration does not include the footprint library 'Capacitor_SMD'",
+            "items": [
+                {
+                    "description": "Footprint C3",
+                    "pos": {
+                        "x": 95.485,
+                        "y": 65.5
+                    },
+                    "uuid": "bc06f1cd-4904-422b-a434-c2a22f6bbc23"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        },
+        {
+            "description": "The current configuration does not include the footprint library 'Capacitor_SMD'",
+            "items": [
+                {
+                    "description": "Footprint C6",
+                    "pos": {
+                        "x": 220.75,
+                        "y": 65.5
+                    },
+                    "uuid": "bc74ee2b-f5e0-48c6-b53a-cadd2f19e4bb"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        },
+        {
+            "description": "The current configuration does not include the footprint library 'Connector_PinHeader_2.54mm'",
+            "items": [
+                {
+                    "description": "Footprint JP2",
+                    "pos": {
+                        "x": 182.46,
+                        "y": 45.0
+                    },
+                    "uuid": "bd46243d-c846-4d18-9291-2c6e88483bf7"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        },
+        {
+            "description": "The current configuration does not include the footprint library 'Connector_PinHeader_2.54mm'",
+            "items": [
+                {
+                    "description": "Footprint JP19",
+                    "pos": {
+                        "x": 214.46,
+                        "y": 61.0
+                    },
+                    "uuid": "bddbe0f9-757f-4842-b1e4-91c2a3e8fca6"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        },
+        {
+            "description": "The current configuration does not include the footprint library 'Connector_PinHeader_2.54mm'",
+            "items": [
+                {
+                    "description": "Footprint JP9",
+                    "pos": {
+                        "x": 89.46,
+                        "y": 61.0
+                    },
+                    "uuid": "bf8ae3d0-851f-4648-91db-234e2e92396a"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        },
+        {
+            "description": "The current configuration does not include the footprint library 'Inductor_SMD'",
+            "items": [
+                {
+                    "description": "Footprint L8",
+                    "pos": {
+                        "x": 204.985,
+                        "y": 71.5
+                    },
+                    "uuid": "c10972bd-5ab4-4b74-97f3-eb0ff6f7d541"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        },
+        {
+            "description": "The current configuration does not include the footprint library 'Resistor_SMD'",
+            "items": [
+                {
+                    "description": "Footprint R5",
+                    "pos": {
+                        "x": 84.0,
+                        "y": 53.0
+                    },
+                    "uuid": "c2fea5a7-05bb-4d30-9e33-56c8491991f8"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        },
+        {
+            "description": "The current configuration does not include the footprint library 'Inductor_SMD'",
+            "items": [
+                {
+                    "description": "Footprint L1",
+                    "pos": {
+                        "x": 76.0,
+                        "y": 53.0
+                    },
+                    "uuid": "cb6deaf1-d23d-4705-9e86-620ae3b9467c"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        },
+        {
+            "description": "The current configuration does not include the footprint library 'Connector_PinHeader_2.54mm'",
+            "items": [
+                {
+                    "description": "Footprint JP24",
+                    "pos": {
+                        "x": 121.46,
+                        "y": 65.5
+                    },
+                    "uuid": "d4363caf-b2c3-406f-af50-81f4c52cae4d"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        },
+        {
+            "description": "The current configuration does not include the footprint library 'Connector_PinHeader_2.54mm'",
+            "items": [
+                {
+                    "description": "Footprint J11",
+                    "pos": {
+                        "x": 127.64,
+                        "y": 45.01
+                    },
+                    "uuid": "d44abc36-3718-4781-9e8a-4d4d5754180a"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        },
+        {
+            "description": "The current configuration does not include the footprint library 'Connector_PinHeader_2.54mm'",
+            "items": [
+                {
+                    "description": "Footprint J6",
+                    "pos": {
+                        "x": 188.735,
+                        "y": 45.0
+                    },
+                    "uuid": "d66b1d46-72e8-4ca3-af39-b14f4bf2ee94"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        },
+        {
+            "description": "The current configuration does not include the footprint library 'Connector_PinHeader_2.54mm'",
+            "items": [
+                {
+                    "description": "Footprint JP13",
+                    "pos": {
+                        "x": 73.46,
+                        "y": 41.25
+                    },
+                    "uuid": "db071698-b269-4336-8f94-874c04ea7bcb"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        },
+        {
+            "description": "The current configuration does not include the footprint library 'Connector_PinHeader_2.54mm'",
+            "items": [
+                {
+                    "description": "Footprint JP21",
+                    "pos": {
+                        "x": 121.46,
+                        "y": 45.0
+                    },
+                    "uuid": "dc069224-208f-4d05-8940-d68f374b5a23"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        },
+        {
+            "description": "The current configuration does not include the footprint library 'Resistor_SMD'",
+            "items": [
+                {
+                    "description": "Footprint R9",
+                    "pos": {
+                        "x": 100.0,
+                        "y": 53.0
+                    },
+                    "uuid": "dc87437f-b086-4911-ae08-433aee5295a2"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        },
+        {
+            "description": "The current configuration does not include the footprint library 'Inductor_SMD'",
+            "items": [
+                {
+                    "description": "Footprint L10",
+                    "pos": {
+                        "x": 217.0,
+                        "y": 53.0
+                    },
+                    "uuid": "de10e48b-f45c-4e3d-bac6-1d6f7e380f27"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        },
+        {
+            "description": "The current configuration does not include the footprint library 'Connector_PinHeader_2.54mm'",
+            "items": [
+                {
+                    "description": "Footprint J12",
+                    "pos": {
+                        "x": 237.0,
+                        "y": 45.0
+                    },
+                    "uuid": "e5186309-ef0d-470b-8cda-cc43954e42b8"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        },
+        {
+            "description": "The current configuration does not include the footprint library 'Inductor_SMD'",
+            "items": [
+                {
+                    "description": "Footprint L9",
+                    "pos": {
+                        "x": 108.0,
+                        "y": 53.0
+                    },
+                    "uuid": "e7901c27-2bd8-4ee4-974d-21a5b413c214"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        },
+        {
+            "description": "The current configuration does not include the footprint library 'Connector_PinHeader_2.54mm'",
+            "items": [
+                {
+                    "description": "Footprint JP5",
+                    "pos": {
+                        "x": 182.46,
+                        "y": 61.0
+                    },
+                    "uuid": "effdc8d9-91de-41e9-ab5c-4c0b887ca205"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        },
+        {
+            "description": "The current configuration does not include the footprint library 'Capacitor_SMD'",
+            "items": [
+                {
+                    "description": "Footprint C5",
+                    "pos": {
+                        "x": 111.485,
+                        "y": 65.5
+                    },
+                    "uuid": "f148421e-c354-4ac4-9706-a2b3314bf642"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        },
+        {
+            "description": "The current configuration does not include the footprint library 'Inductor_SMD'",
+            "items": [
+                {
+                    "description": "Footprint L15",
+                    "pos": {
+                        "x": 127.485,
+                        "y": 71.25
+                    },
+                    "uuid": "fd7a4117-1e09-4590-a77c-2351148b6c0b"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        },
+        {
+            "description": "The current configuration does not include the footprint library 'Connector_PinHeader_2.54mm'",
+            "items": [
+                {
+                    "description": "Footprint J1",
+                    "pos": {
+                        "x": 64.0,
+                        "y": 53.0
+                    },
+                    "uuid": "fe207087-65cc-48e8-b5f0-d605b584addd"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        },
+        {
+            "description": "The current configuration does not include the footprint library 'Connector_PinHeader_2.54mm'",
+            "items": [
+                {
+                    "description": "Footprint JP6",
+                    "pos": {
+                        "x": 182.46,
+                        "y": 65.4625
+                    },
+                    "uuid": "fe6326b4-74dd-45de-bd77-6e585457fada"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        }
+    ]
+}

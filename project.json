@@ -1,0 +1,45 @@
+{
+  "schema": 1,
+  "repository": "crnchwrpsupreem/DCDC_Converter_EMC_DemoBoard",
+  "snapshot": "e4656f62521c00104f5c5df85fda55280a6157ce",
+  "boards": [
+    {
+      "name": "DCDC Converter DemoBoard",
+      "source": "DCDC_Converter_DemoBoard.kicad_pcb",
+      "images": {
+        "board": "boards/dcdc-converter-demoboard-508d0f/board.png",
+        "top": "boards/dcdc-converter-demoboard-508d0f/top.png",
+        "bottom": "boards/dcdc-converter-demoboard-508d0f/bottom.png"
+      },
+      "model": "boards/dcdc-converter-demoboard-508d0f/board-view.glb",
+      "schematics": [
+        {
+          "name": "DCDC Converter DemoBoard",
+          "file": "boards/dcdc-converter-demoboard-508d0f/schematics/DCDC_Converter_DemoBoard.svg"
+        }
+      ],
+      "downloads": [
+        {
+          "label": "JLCPCB package",
+          "file": "boards/dcdc-converter-demoboard-508d0f/manufacturing.zip"
+        },
+        {
+          "label": "Gerbers + drills",
+          "file": "boards/dcdc-converter-demoboard-508d0f/gerbers.zip"
+        },
+        {
+          "label": "BOM",
+          "file": "boards/dcdc-converter-demoboard-508d0f/bom.csv"
+        },
+        {
+          "label": "Pick & place",
+          "file": "boards/dcdc-converter-demoboard-508d0f/positions.csv"
+        },
+        {
+          "label": "Schematic PDF",
+          "file": "boards/dcdc-converter-demoboard-508d0f/schematic.pdf"
+        }
+      ]
+    }
+  ]
+}
